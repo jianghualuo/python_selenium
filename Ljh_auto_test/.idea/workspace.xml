@@ -70,11 +70,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="387" />
-    <option name="y" value="87" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="448" />
+    <option name="y" value="387" />
     <option name="width" value="1104" />
-    <option name="height" value="794" />
+    <option name="height" value="792" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
