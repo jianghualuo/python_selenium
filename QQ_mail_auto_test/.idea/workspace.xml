@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24abec3d-7c35-4c3d-a10a-e4fd7e8b7600" name="默认的" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Ljh_auto_test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebDriver API.mmap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auto_test/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auto_test/data/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auto_test/test_case/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auto_test/test_case/models/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auto_test/test_case/page_obj/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/auto_test/test_case/test case/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package/autoit-v3-setup.exe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/run_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/startup.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/自动化测试项目结构.mmap" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/自动化测试项目说明文档.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/自动化测试高级.docx" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/Ljh_auto_test.iml" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/.idea/Ljh_auto_test.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebDriver API.mmap" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/WebDriver API.mmap" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/auto_test/__init__.py" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/mail_auto_test/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/auto_test/data/__init__.py" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/mail_auto_test/data/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/auto_test/test_case/__init__.py" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/mail_auto_test/test_case/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/auto_test/test_case/models/__init__.py" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/mail_auto_test/test_case/models/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/auto_test/test_case/page_obj/__init__.py" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/mail_auto_test/test_case/page_obj/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/auto_test/test_case/test case/__init__.py" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/mail_auto_test/test_case/test case/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/package/autoit-v3-setup.exe" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/package/autoit-v3-setup.exe" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/run_test.py" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/run_test.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/startup.bat" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/startup.bat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/自动化测试项目结构.mmap" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/自动化测试项目结构.mmap" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/自动化测试项目说明文档.docx" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/自动化测试项目说明文档.docx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/自动化测试高级.docx" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/自动化测试高级.docx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../QQ_mail_auto_test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../QQ_mail_auto_test/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -146,6 +112,39 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="QQ_mail_auto_test" type="cbb8eebc:String" user="QQ_mail_auto_test" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="QQ_mail_auto_test" type="cbb8eebc:String" user="QQ_mail_auto_test" />
+              <item name="mail_auto_test" type="cbb8eebc:String" user="mail_auto_test" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="QQ_mail_auto_test" type="cbb8eebc:String" user="QQ_mail_auto_test" />
+              <item name="mail_auto_test" type="cbb8eebc:String" user="mail_auto_test" />
+              <item name="test_case" type="cbb8eebc:String" user="test_case" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="D:" type="cbb8eebc:String" user="D:" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="D:" type="cbb8eebc:String" user="D:" />
+              <item name="Git_lib" type="cbb8eebc:String" user="Git_lib" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="External Dependencies" type="cbb8eebc:String" user="External Dependencies" />
+              <item name="D:" type="cbb8eebc:String" user="D:" />
+              <item name="Git_lib" type="cbb8eebc:String" user="Git_lib" />
+              <item name="python_selenium" type="cbb8eebc:String" user="python_selenium" />
             </path>
           </expand>
           <select />
