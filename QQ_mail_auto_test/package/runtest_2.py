@@ -1,13 +1,15 @@
 import unittest
+import time
 from HTMLTestRunner import HTMLTestRunner
 
 test_dir = './'
 discover = unittest.defaultTestLoader.discover(test_dir, pattern='test*.py')
 
 if __name__ == '__main__':
-    runner = unittest.TextTestRunner()
     # 定义存放路径
-    fp = open('./result.html', 'wb')
+    now = time.strftime("%Y-%m-%d %H-%M-%S")
+    fp_name = "D:/Git_lib/python_selenium/QQ_mail_auto_test/report" + now + "result.html"
+    fp = open(fp_name, 'wb')
     # 定义测试报告
     runner = HTMLTestRunner(stream=fp,
                             title='测试报告',
