@@ -3,15 +3,18 @@ import unittest
 
 
 class TestAdd(unittest.TestCase):
+    """测试加"""
 
     def setUp(self):
         print("test start")
 
     def test_add(self):
+        """加法1"""
         j = Count(2, 3)
         self.assertEqual(j.add(), 5)
 
     def test_add2(self):
+        """加法2"""
         j = Count(34, 25)
         self.assertEqual(j.add(), 59)
 
@@ -20,15 +23,18 @@ class TestAdd(unittest.TestCase):
 
 
 class TestSub(unittest.TestCase):
+    """测试加"""
 
     def setUp(self):
         print("test start")
 
     def test_sub(self):
+        """减法1"""
         j = Count(4, 3)
         self.assertEqual(j.sub(), 1)
 
     def test_sub2(self):
+        """减法2"""
         j = Count(34, 25)
         self.assertEqual(j.sub(), 9)
 
