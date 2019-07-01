@@ -37,7 +37,7 @@ class LoginPage(Page):
 
     url = '/'
 
-    # 定位器
+    # 定位器，元组模型
     username_loc = (By.NAME, "email")
     password_loc = (By.NAME, "password")
     submit_loc = (By.ID, "dologin")
@@ -81,6 +81,7 @@ def main():
     finally:
         # 关闭浏览器窗口
         driver.close()
+
 
 if __name__ == '__main__':
     main()
