@@ -3,7 +3,8 @@ import time
 from HTMLTestRunner import HTMLTestRunner
 import smtplib
 from email.mime.text import MIMEText
-from email.header import Header
+from email.mime.multipart import MIMEMultipart
+# from email.header import Header
 import os
 
 test_dir = './'
@@ -17,13 +18,21 @@ def send_mail(file_new):
     mail_body = f.read()
     f.close()
 
-    msg = MIMEText(mail_body, "html", "uft-8")
-    msg["subject"] = Header("自动化测试报告", "utf-8")
+    # msg = MIMEText(mail_body, "html", "uft-8")
+    # msg["subject"] = Header("自动化测试报告", "utf-8")
+
+    att = MIMEText(mail_body, "base64", "utf-8")
+    att["Content-Type"] = "application/octet-stream"
+    att["Content-Disposition"] = "attachment; filename=result_test"
+
+    msgRoot = MIMEMultipart("related")
+    msgRoot["subject"] = "auto test report"
+    msgRoot.attach(att)
 
     smtp = smtplib.SMTP()
     smtp.connect("smtp.qq.com")
     smtp.login("1414710823@qq.com", "ejgqcjukfjmggjai")
-    smtp.sendmail("1414710823@qq.com", "18827453452@163.com", msg.as_string())
+    smtp.sendmail("1414710823@qq.com", "18827453452@163.com", msgRoot.as_string())
     smtp.quit()
     print("email has send out")
 
