@@ -16,7 +16,7 @@ send_file = open("./2019-06-28 11-17-01result.html", "rb").read()
 
 att = MIMEText(send_file, "base64", "utf-8")
 att["Content-Type"] = "application/octet-stream"
-att["Content-Disposition"] = "attachment; filename='2019-06-28 11-17-01result.html'"
+att["Content-Disposition"] = "attachment; filename=2019-06-28 11-17-01result.html"
 
 msgRoot = MIMEMultipart("related")
 msgRoot["subject"] = subject
