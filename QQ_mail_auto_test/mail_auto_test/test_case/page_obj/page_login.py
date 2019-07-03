@@ -16,19 +16,20 @@ class PageLogin(PageBase):
 
     # actions
     def type_username(self, username):
-        PageLogin(PageBase).find_element(*self.username_loc).clear()
-        PageLogin(PageBase).find_element(*self.username_loc).send_keys(username)
+        # PageLogin(PageBase).find_element(*self.username_loc).clear() 如此写没有传入参数“driver”
+        self.find_element(*self.username_loc).clear()
+        self.find_element(*self.username_loc).send_keys(username)
 
     def type_password(self, password):
-        PageLogin(PageBase).find_element(*self.password_loc).send_keys(password)
+        self.find_element(*self.password_loc).send_keys(password)
 
     def type_submit(self):
-        PageLogin(PageBase).find_element(*self.submit_loc).clck()
+        self.find_element(*self.submit_loc).click()
 
     # 统一的登录测试方法,默认用户名和密码
     def test_login(self, username="1414710823@qq.com", password="LJH-ljh@169914@"):
         self.open()
-        self.driver.switch_to.frame()
+        self.driver.switch_to.frame("login_frame")
 
         self.type_username(username)
         self.type_password(password)
