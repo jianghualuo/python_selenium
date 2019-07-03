@@ -1,0 +1,12 @@
+1.多层级模块导入：
+>使用sys.path.append("")将要导入的模块路径放到系统环境变量中后；
+>直接from 包名.模块名 import 类名---->即可；
+>但是会在改py文件中提示导入报错，不用在意，因为执行时，并不是在该py文件下执行的。
+
+2.如下错误：
+# PageLogin(PageBase).find_element(*self.username_loc).clear() 如此写没有传入参数“driver”
+self.find_element(*self.username_loc).clear()
+
+子类继承了父类的方法后，在调用时，使用self.方法名，不要直接用类对象去掉，这样会导致在执行过程中，父类方法中self被解释为“str”。
+
+3.不要写错方法名称，加强记忆。
