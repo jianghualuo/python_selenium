@@ -1,5 +1,4 @@
 # 浏览器驱动、测试URL、打开测试页面、断言打开的页面是否正确、页面元素定位方法
-from selenium import webdriver
 
 
 class PageBase(object):
@@ -9,10 +8,11 @@ class PageBase(object):
     base_url = 'https://mail.qq.com'
 
     # 定义初始化参数：浏览器驱动，基础url、超时时间
-    def __init__(self, selenium_driver, base_url=base_url):
+    def __init__(self, selenium_driver, base_url=base_url, parent=None):
         self.driver = selenium_driver
         self.base_url = base_url
         self.timeout = 30
+        self.parent = parent
 
     # 判断当前登录页面是否和预期页面URL一致
     def on_page(self):
@@ -29,8 +29,8 @@ class PageBase(object):
 
     # 定位界面单个元素
     def find_element(self, *loc):
-        return self.driver.find_element()
+        return self.driver.find_element(*loc)
 
     # 定位页面多个元素
     def find_elements(self, *loc):
-        return self.driver.find_elements()
+        return self.driver.find_elements(*loc)
