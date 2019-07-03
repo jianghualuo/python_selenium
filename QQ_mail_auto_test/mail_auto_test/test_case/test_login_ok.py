@@ -20,5 +20,6 @@ class TestLoginOk(MyTest):
         sleep(3)
         assert(self.text == pl.login_success_hint()), '登录失败!'
 
+
 if __name__ == '__main__':
     unittest.main()
