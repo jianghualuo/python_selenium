@@ -36,8 +36,6 @@ class PageLogin(PageBase):
         self.type_submit()
         sleep(1)
 
-        self.driver.switch_to.default_content()
-
     login_error_loc = (By.ID, "err_m")
     login_success_loc = (By.ID, "useraddr")
 
@@ -45,14 +43,8 @@ class PageLogin(PageBase):
     def login_success_hint(self):
         return self.find_element(*self.login_success_loc).text
 
-    # 空用户名和密码登录：text = "你还没有输入密码"
-    def login_null_(self):
-        return self.find_element(*self.login_error_loc).text
-
-    # 空密码登录：text = "你还有输入账号"
-    def login_no_password(self):
-        return self.find_element(*self.login_error_loc).text
-
-    # 错误的密码登录：text = "你输入的账号和密码不正确"
-    def login_wrong_password(self):
+    # 空密码登录：text = "你还没有输入密码"
+    # 空用户名和密码登录：text = "你还没有输入账号"
+    # 错误的密码登录：text = "你输入的账号或密码不正确,请重新输入"
+    def login_error(self):
         return self.find_element(*self.login_error_loc).text
