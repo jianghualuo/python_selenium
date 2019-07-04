@@ -8,11 +8,10 @@ class PageBase(object):
     base_url = 'https://mail.qq.com'
 
     # 定义初始化参数：浏览器驱动，基础url、超时时间
-    def __init__(self, selenium_driver, base_url=base_url, parent=None):
+    def __init__(self, selenium_driver, base_url=base_url):
         self.driver = selenium_driver
         self.base_url = base_url
         self.timeout = 30
-        self.parent = parent
 
     # 判断当前登录页面是否和预期页面URL一致
     def on_page(self):
