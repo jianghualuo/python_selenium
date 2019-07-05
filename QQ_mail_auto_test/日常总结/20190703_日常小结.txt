@@ -7,6 +7,6 @@
 # PageLogin(PageBase).find_element(*self.username_loc).clear() 如此写没有传入参数“driver”
 self.find_element(*self.username_loc).clear()
 
-子类继承了父类的方法后，在调用时，使用self.方法名，不要直接用类对象去掉，这样会导致在执行过程中，父类方法中self被解释为“str”。
+子类继承了父类的方法后，在调用时，使用self.方法名，不要直接用类对象去调，这样会导致在执行过程中，父类方法中self被解释为“str”。
 
 3.不要写错方法名称，加强记忆。
