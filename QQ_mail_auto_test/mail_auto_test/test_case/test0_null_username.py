@@ -4,6 +4,7 @@ import sys
 sys.path.append("./models")
 sys.path.append("./page_obj")
 from models.myunit import MyTest
+from models.function import get_screenshot
 from page_obj.page_login import PageLogin
 
 
@@ -17,6 +18,7 @@ class TestNullUsername(MyTest):
         pl = PageLogin(self.driver)
         pl.test_login("", "")
         sleep(3)
+        get_screenshot(self.driver, "./QQ_mail_auto_testmail_auto_testreport/img/null_username_login.jpg")
         self.assertEqual(pl.login_error(), "你还没有输入帐号！")
 
 
