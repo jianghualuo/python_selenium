@@ -1,0 +1,30 @@
+1.问题：discover加载了测试目录下的测试用例组成测试用例集，在执行的时候，只能执行第一条测试用例，第一次测试用是pass的，但是在执行后面的测试用例时，全部报错：
+>>>>>sock.connect(sa)  ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。<<<<<<
+>>>>>selenium.common.exceptions.WebDriverException: Message: No active session with ID 582e53e3-9f53-4e5e-9807-335c29726646<<<<<<<<
+
+原因：
+据排查，很有可能是在继续执行测试用例的时候，没有驱动去连接浏览。
+
+出问题的代码：
+class MyTest(unittest.TestCase):
+    """
+    unit测试框架
+    """
+    # 如下错误做法：在unittest的setUp初始化函数外定义驱动，导致第一个测试用例执行完毕环境被清除，之后没有再次定义驱动。
+    # driver = webdriver.Firefox()  # 错误1：
+    # driver = browser()            # 错误2：
+
+    def setUp(self):
+        # self.driver = browser()
+        self.driver = webdriver.Firefox()
+        self.driver.implicitly_wait(10)
+        self.driver.maximize_window()
+
+    def tearDown(self):
+        self.driver.quit()
+		
+===>
+在写unittest框架基础类时，将浏览器的驱动定义在setUp函数的外面，造成第一次完成测试后，由于tearDown清除掉了之前的测试环境导致，再次执行时setUp函数初始化时，
+并没有去定义浏览驱动，所以导致后面的执行出现错误，没有去创建有效的session。
+
+2.注意事件：关于需要传入文件路径的方法，对其进行调用时，如果填入的路径是相对路径，那么这个相对路径将以调用方法并执行的当前路径为准，和定义该方法的模块路径没关系。
