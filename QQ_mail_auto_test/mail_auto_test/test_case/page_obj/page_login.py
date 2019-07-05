@@ -30,12 +30,9 @@ class PageLogin(PageBase):
     def test_login(self, username="1414710823@qq.com", password="LJH-ljh@169914@"):
         self.open()
         self.driver.switch_to.frame("login_frame")
-        sleep(2)
 
         self.type_username(username)
-        sleep(2)
         self.type_password(password)
-        sleep(2)
         self.type_submit()
         sleep(1)
 
