@@ -6,6 +6,7 @@ sys.path.append("./models")
 sys.path.append("./page_obj")
 from models.myunit import MyTest
 from page_obj.page_login import PageLogin
+from models.function import get_screenshot
 
 
 class TestNullPassword(MyTest):
@@ -18,6 +19,7 @@ class TestNullPassword(MyTest):
         pl = PageLogin(self.driver)
         pl.test_login(self.num + "1414710823@qq.com", "")
         sleep(3)
+        get_screenshot(self.driver, "./mail_auto_test/report/img/null_password_login.jpg")
         self.assertEqual(pl.login_error(), "你还没有输入密码！")
 
 
