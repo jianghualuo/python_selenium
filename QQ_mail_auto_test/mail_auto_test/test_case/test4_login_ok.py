@@ -20,7 +20,7 @@ class TestLoginOk(MyTest):
         pl.test_login()
         self.driver.switch_to.default_content()
         sleep(3)
-        get_screenshot(self.driver, "./mail_auto_test/report/img/login_ok.jpg")
+        get_screenshot("./mail_auto_test/report/img/login_ok.jpg")
         assert(self.text == pl.login_success_hint()), '登录失败!'
 
 
