@@ -6,6 +6,7 @@ sys.path.append("./page_obj")
 sys.path.append("./models")
 from page_obj.page_login import PageLogin
 from models.myunit import MyTest
+from models.function import get_screenshot
 
 
 class TestLoginOk(MyTest):
@@ -19,6 +20,7 @@ class TestLoginOk(MyTest):
         pl.test_login()
         self.driver.switch_to.default_content()
         sleep(3)
+        get_screenshot(self.driver, "./mail_auto_test/report/img/login_ok.jpg")
         assert(self.text == pl.login_success_hint()), '登录失败!'
 
 
