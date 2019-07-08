@@ -2,29 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24abec3d-7c35-4c3d-a10a-e4fd7e8b7600" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/driver/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/check_login.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/models/driver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/models/function.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 22-53-14result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 23-05-44result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 23-08-29result.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebDriver API.mmap" afterPath="$PROJECT_DIR$/WebDriver API.mmap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Ljh_auto_test.iml" afterPath="$PROJECT_DIR$/.idea/Ljh_auto_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-06-28 17-46-01result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-06-28 17-46-52result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-06-29 09-49-14result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-06-29 11-55-00result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-06-29 11-57-10result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-06-29 11-58-36result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-06-29 12-07-44result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-01 10-30-33result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-01 11-02-53result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-01 11-08-50result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-01 11-13-39result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-01 11-14-46result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-01 11-17-03result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-01 11-26-57result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-03 15-55-05result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-03 15-59-58result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-03 16-01-45result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-03 16-06-23result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-03 16-12-09result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-03 16-15-50result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-03 16-18-21result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-03 16-49-30result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-03 17-12-11result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-03 17-15-34result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-03 17-18-57result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-03 17-25-34result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-03 17-27-34result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 11-18-40result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 11-26-26result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 11-27-37result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 11-35-47result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 11-40-10result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 13-54-20result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 14-58-47result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 15-10-18result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 15-15-42result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 15-19-37result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 15-22-47result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 15-30-55result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-04 15-35-34result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-05 14-07-00result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-05 14-15-29result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-05 14-19-24result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-05 14-27-16result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-05 15-00-51result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-05 15-10-36result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-05 15-23-11result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-05 15-29-15result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-05 17-57-43result.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mail_auto_test/test_case/geckodriver.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geckodriver.log" afterPath="$PROJECT_DIR$/geckodriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail_auto_test/test_case/geckodriver.log" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/geckodriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail_auto_test/test_case/models/myunit.py" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/models/myunit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_login.py" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail_auto_test/test_case/models/function.py" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/models/function.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail_auto_test/test_case/test0_null_username.py" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/test0_null_username.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail_auto_test/test_case/test1_null_username.py" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/test1_null_username.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail_auto_test/test_case/test2_null_password.py" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/test2_null_password.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail_auto_test/test_case/test3_wrong_password.py" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/test3_wrong_password.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mail_auto_test/test_case/test4_login_ok.py" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/test4_login_ok.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_test_just.py" afterPath="$PROJECT_DIR$/run_test_just.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/~$WebDriver API.mmap.~$lock" afterPath="$PROJECT_DIR$/~$WebDriver API.mmap.~$lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/日常总结/20190703_日常小结.txt" afterPath="$PROJECT_DIR$/日常总结/20190703_日常小结.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,7 +73,7 @@
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_login_ok__1_.coverage" NAME="test_login_ok (1) Coverage Results" MODIFIED="1562079972599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case/test case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$PO_login_qqmail.coverage" NAME="PO_login_qqmail Coverage Results" MODIFIED="1561994659285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$driver.coverage" NAME="driver Coverage Results" MODIFIED="1562311564096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case/models" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test0_null_username.coverage" NAME="test0_null_username Coverage Results" MODIFIED="1562315405267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test0_null_username.coverage" NAME="test0_null_username Coverage Results" MODIFIED="1562555234299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1561949399208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1562307563951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$PO_model.coverage" NAME="PO_model Coverage Results" MODIFIED="1561985621193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
@@ -45,8 +81,9 @@
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_login_ok.coverage" NAME="test_login_ok Coverage Results" MODIFIED="1562077390251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case/test case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test3_wrong_password.coverage" NAME="test3_wrong_password Coverage Results" MODIFIED="1562295109720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_run.coverage" NAME="test_run Coverage Results" MODIFIED="1562318940280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/selenium/test" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$run_test_just.coverage" NAME="run_test_just Coverage Results" MODIFIED="1562320663352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$run_test_just.coverage" NAME="run_test_just Coverage Results" MODIFIED="1562556479288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test2_wrong_password.coverage" NAME="test2_wrong_password Coverage Results" MODIFIED="1562220753536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$function.coverage" NAME="function Coverage Results" MODIFIED="1562554198480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case/models" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1562049868551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/selenium" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test4_login_ok.coverage" NAME="test4_login_ok Coverage Results" MODIFIED="1562254384186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$send_mail_2.coverage" NAME="send_mail_2 Coverage Results" MODIFIED="1561951111643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
@@ -120,7 +157,68 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test0_null_username.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test0_null_username.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test1_null_username.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test1_null_username.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="18" column="91" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="91" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test2_null_password.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test2_null_password.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test4_login_ok.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test4_login_ok.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_test_just.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run_test_just.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -172,26 +270,26 @@
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/test1_null_password.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/test2_wrong_password.py" />
         <option value="D:/selenium/test.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test4_login_ok.py" />
         <option value="$PROJECT_DIR$/../../test/test/test_case.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/Page.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/test case/test_login.py" />
-        <option value="$PROJECT_DIR$/run_test_just.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test3_wrong_password.py" />
         <option value="$PROJECT_DIR$/driver/__init__.py" />
         <option value="$PROJECT_DIR$/driver/driver.py" />
         <option value="D:/selenium/selenuim_RC.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test2_null_password.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test1_null_username.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_login.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/models/driver.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/check_login.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/models/myunit.py" />
         <option value="D:/selenium/baidu.py" />
         <option value="D:/selenium/test/test_run.py" />
         <option value="$PROJECT_DIR$/日常总结/20190705_日常小结.txt" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test0_null_username.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/models/function.py" />
+        <option value="$PROJECT_DIR$/run_test_just.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/models/myunit.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test1_null_username.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test0_null_username.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test2_null_password.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test3_wrong_password.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test4_login_ok.py" />
       </list>
     </option>
   </component>
@@ -201,7 +299,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="599" />
     <option name="y" value="54" />
     <option name="width" value="974" />
@@ -211,7 +309,7 @@
     <ConfirmationsSetting value="2" id="添加" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -225,6 +323,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -241,21 +340,13 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="QQ_mail_auto_test" type="cbb8eebc:String" user="QQ_mail_auto_test" />
               <item name="mail_auto_test" type="cbb8eebc:String" user="mail_auto_test" />
-              <item name="test_case" type="cbb8eebc:String" user="test_case" />
+              <item name="report" type="cbb8eebc:String" user="report" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="QQ_mail_auto_test" type="cbb8eebc:String" user="QQ_mail_auto_test" />
               <item name="mail_auto_test" type="cbb8eebc:String" user="mail_auto_test" />
               <item name="test_case" type="cbb8eebc:String" user="test_case" />
-              <item name="models" type="cbb8eebc:String" user="models" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="QQ_mail_auto_test" type="cbb8eebc:String" user="QQ_mail_auto_test" />
-              <item name="mail_auto_test" type="cbb8eebc:String" user="mail_auto_test" />
-              <item name="test_case" type="cbb8eebc:String" user="test_case" />
-              <item name="page_obj" type="cbb8eebc:String" user="page_obj" />
             </path>
           </expand>
           <select />
@@ -307,7 +398,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,12 +410,6 @@
               <item name="QQ_mail_auto_test" type="462c0819:PsiDirectoryNode" />
               <item name="mail_auto_test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="QQ_mail_auto_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QQ_mail_auto_test" type="462c0819:PsiDirectoryNode" />
-              <item name="mail_auto_test" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -335,7 +419,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -377,20 +461,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="run_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mail_auto_test/test_case/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Ljh_auto_test" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/models/function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -452,17 +536,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.run_test_just" />
       <item index="1" class="java.lang.String" itemvalue="Python.driver" />
-      <item index="2" class="java.lang.String" itemvalue="Python.run_test" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test0_null_username" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test_run" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test0_null_username" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_run" />
+      <item index="4" class="java.lang.String" itemvalue="Python.function" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.run_test_just" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_run" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test0_null_username" />
-        <item index="3" class="java.lang.String" itemvalue="Python.driver" />
-        <item index="4" class="java.lang.String" itemvalue="Python.run_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test0_null_username" />
+        <item index="2" class="java.lang.String" itemvalue="Python.function" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test_run" />
+        <item index="4" class="java.lang.String" itemvalue="Python.driver" />
       </list>
     </recent_temporary>
   </component>
@@ -506,27 +590,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="599" y="54" width="974" height="802" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3894967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21304348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19616205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2042042" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -544,37 +629,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test4_login_ok.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startup.bat.py" />
-    <entry file="file://$PROJECT_DIR$/../../python100/对象管理.py" />
-    <entry file="file://$USER_HOME$/Desktop/dd.py" />
-    <entry file="file://D:/Users/LJH/AppData/Local/Programs/Python/Python36-32/Lib/unittest/case.py" />
-    <entry file="file://$PROJECT_DIR$/~$WebDriver API.mmap.~$lock" />
-    <entry file="file://$PROJECT_DIR$/package/test_unit_fixtures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package/test_unit_skip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://G:/迅雷下载/test_HTMLTestRunner.py" />
-    <entry file="file://D:/Users/LJH/AppData/Local/Programs/Python/Python36-32/Lib/HTMLTestRunner.py" />
     <entry file="file://$PROJECT_DIR$/package/result.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2340">
@@ -637,7 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/geckodriver.log" />
     <entry file="file://D:/Users/LJH/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/urllib3/util/connection.py" />
     <entry file="file://D:/selenium/test.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/selenium/webdriver/__init__.py" />
@@ -646,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="737">
           <caret line="397" column="0" lean-forward="false" selection-start-line="397" selection-start-column="0" selection-end-line="397" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -654,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1363">
           <caret line="636" column="56" lean-forward="false" selection-start-line="636" selection-start-column="56" selection-end-line="636" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -662,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,68 +731,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test4_login_ok.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test3_wrong_password.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test2_null_password.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test1_null_username.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常总结/20190705_日常小结.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="29" column="82" lean-forward="false" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/selenium/test/test_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/selenium/baidu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/~$自动化脚本编写规则.mmap.~$lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/check_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/report/img/baidu.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/report/img/null_username_login.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/geckodriver.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-9480">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/report/2019-07-08 11-11-17result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/report/2019-07-08 11-18-54result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2070">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -760,8 +832,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/myunit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="630">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -770,21 +842,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="60">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/日常总结/20190705_日常小结.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="29" column="82" lean-forward="false" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/selenium/test/test_run.py">
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -792,44 +856,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/selenium/baidu.py">
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test3_wrong_password.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/~$自动化脚本编写规则.mmap.~$lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test0_null_username.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        <state relative-caret-position="390">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/function.py">
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test2_null_password.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        <state relative-caret-position="690">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test1_null_username.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" column="91" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test0_null_username.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test4_login_ok.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/report/img/wrong_password_login.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/report/img/null_username_login1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/report/img/null_username_login2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/report/img/null_password_login.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/report/img/login_ok.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/report/2019-07-08 11-27-59result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run_test_just.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="180">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
