@@ -13,6 +13,7 @@ class PageLogin(PageBase):
     username_loc = (By.ID, "u")
     password_loc = (By.ID, "p")
     submit_loc = (By.ID, "login_button")
+    auto_login_loc = (By.ID, "p_low_login_enable")
 
     # actions
     def type_username(self, username):
@@ -35,6 +36,19 @@ class PageLogin(PageBase):
         self.type_password(password)
         self.type_submit()
         sleep(1)
+
+    def auto_login(self, username="1414710823@qq.com", password="LJH-ljh@169914@"):
+        self.open()
+        self.driver.switch_to.frame("login_frame")
+
+        self.type_username(username)
+        self.type_password(password)
+        self.find_element(*self.auto_login_loc).click()
+        self.type_submit()
+        sleep(1)
+
+    def test_auto_login(self):
+        self.open()
 
     login_error_loc = (By.ID, "err_m")
     login_success_loc = (By.ID, "useraddr")
