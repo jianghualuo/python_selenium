@@ -18,4 +18,5 @@ class MyTest(unittest.TestCase):
         self.driver.maximize_window()
 
     def tearDown(self):
+        # quit：退出驱动并关闭所有关联的窗口
         self.driver.quit()
