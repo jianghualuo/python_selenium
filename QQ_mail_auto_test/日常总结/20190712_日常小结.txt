@@ -1,0 +1,3 @@
+1.webdriver每次实例化都会打开一个全新的浏览会话，但是有时候必须在上一次会话的环境下进行测试。
+>Python Webdriver 重新使用已经打开的浏览器实例:
+http://www.spiderpy.cn/blog/detail/36
