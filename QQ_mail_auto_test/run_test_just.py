@@ -3,7 +3,7 @@ import time
 from HTMLTestRunner import HTMLTestRunner
 
 test_dir = "./mail_auto_test/test_case"
-discover = unittest.defaultTestLoader.discover(test_dir, pattern='test*.py')
+discover = unittest.defaultTestLoader.discover(test_dir, pattern='test6*.py')
 
 
 if __name__ == '__main__':
