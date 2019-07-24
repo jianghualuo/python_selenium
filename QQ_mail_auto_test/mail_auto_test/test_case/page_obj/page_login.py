@@ -62,3 +62,7 @@ class PageLogin(PageBase):
     # 错误的密码登录：text = "你输入的账号或密码不正确,请重新输入"
     def login_error(self):
         return self.find_element(*self.login_error_loc).text
+
+    # 判断元素是否可见
+    def is_displayed(self, *loc):
+        return self.find_element(*loc).is_displayed()
