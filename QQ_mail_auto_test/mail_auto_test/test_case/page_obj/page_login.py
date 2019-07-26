@@ -47,7 +47,7 @@ class PageLogin(PageBase):
         self.type_submit()
         sleep(1)
 
-    def test_auto_login(self):
+    def open_mail_web(self):
         self.open()
 
     login_error_loc = (By.ID, "err_m")
