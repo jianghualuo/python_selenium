@@ -1,0 +1,7 @@
+1.特别注意：
+switch_to.frame()后，执行后面的代码一定要switch_to.default_content()
+不然会出现对象连接不到，报deadobject的问题。
+
+2，掌握对pyautogui的使用
+
+3.加强对异常处理的学习
