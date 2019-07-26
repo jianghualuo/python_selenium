@@ -1,0 +1,2 @@
+class ElementNotPresent(Exception):
+    pass
