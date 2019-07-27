@@ -35,7 +35,7 @@ class TestQrLogin(MyTest):
         self.driver.find_element_by_id("switcher_qlogin").click()
         sleep(1)
 
-        # sleep 120s 验证二维是否给出失效提示
+        # sleep 125s 验证二维是否给出失效提示
         sleep(126)
         result = self.driver.find_element_by_id("qr_invalid_tips").is_displayed()
         assert(result is True), "没有二维码失效提示"
