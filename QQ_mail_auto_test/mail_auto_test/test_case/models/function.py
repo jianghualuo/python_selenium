@@ -48,7 +48,7 @@ def open_mail_web():
     for i in range(2):
         pyautogui.press('enter')
     time.sleep(2)
-    pyautogui.screenshot("./mail_auto_test/report/img/unable_auto_login.jpg")  # 截图证明不能自动登录
+    # pyautogui.screenshot("./mail_auto_test/report/img/unable_auto_login.jpg")  # 截图证明不能自动登录
     pyautogui.click(1893, 11)  # 关闭当前网页
 
 
@@ -60,6 +60,3 @@ def mouseover(driver, *loc):
     above = driver.find_element(*loc)
     ActionChains(driver).move_to_element(above).perform()
     time.sleep(2)
-
-
-
