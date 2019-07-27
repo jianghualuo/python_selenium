@@ -47,8 +47,13 @@ class PageLogin(PageBase):
         self.type_submit()
         sleep(1)
 
-    def open_mail_web(self):
+    def quick_login(self):
         self.open()
+        sleep(2)
+        self.driver.switch_to.frame("login_frame")
+        loc = (By.ID, "img_out_1414710823")
+        self.find_element(*loc).click()
+        self.driver.switch_to.default_content()
 
     login_error_loc = (By.ID, "err_m")
     login_success_loc = (By.ID, "useraddr")
