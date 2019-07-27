@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24abec3d-7c35-4c3d-a10a-e4fd7e8b7600" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/mail_auto_test/test_case/models/exception.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail_auto_test/test_case/test8_quick_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/日常总结/20190726_日常小结" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_send_mail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail_auto_test/test_case/test9_send_mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-26 20-44-41result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail_auto_test/report/2019-07-26 21-15-59result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/geckodriver.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/models/function.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/models/function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/test5_next_time_auto_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/test5_next_time_auto_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python基础_20190311.mmap" beforeDir="false" afterPath="$PROJECT_DIR$/python基础_20190311.mmap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_test_just.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_test_just.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$WebDriver API.mmap.~$lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$mail_test_case.mmap.~$lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/test5_next_time_auto_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/test5_auto_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/test7_qr_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/test7_qr_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail_test_case.mmap" beforeDir="false" afterPath="$PROJECT_DIR$/mail_test_case.mmap" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test9_quick_login.coverage" NAME="test9_quick_login Coverage Results" MODIFIED="1564216695582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test.coverage" NAME="test Coverage Results" MODIFIED="1562223425619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/selenium" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test3_login_ok.coverage" NAME="test3_login_ok Coverage Results" MODIFIED="1562220583636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$check_login.coverage" NAME="check_login Coverage Results" MODIFIED="1562293781529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
@@ -39,20 +39,23 @@
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test0_null_username.coverage" NAME="test0_null_username Coverage Results" MODIFIED="1562555234299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test4_wrong_password.coverage" NAME="test4_wrong_password Coverage Results" MODIFIED="1562223291058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test6_forget_password.coverage" NAME="test6_forget_password Coverage Results" MODIFIED="1563963428653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test6_next_auto_login.coverage" NAME="test6_next_auto_login Coverage Results" MODIFIED="1564217888908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$login.coverage" NAME="login Coverage Results" MODIFIED="1563963570888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/Selenium" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$Unittests_in_test_unit_skip_py.coverage" NAME="Unittests in test_unit_skip.py Coverage Results" MODIFIED="1561618108543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$function.coverage" NAME="function Coverage Results" MODIFIED="1562554198480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case/models" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$function.coverage" NAME="function Coverage Results" MODIFIED="1564218429869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case/models" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_login_ok.coverage" NAME="test_login_ok Coverage Results" MODIFIED="1562077390251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case/test case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$find_file.coverage" NAME="find_file Coverage Results" MODIFIED="1561949133986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$__.coverage" NAME="正则表达式_ 替换 Coverage Results" MODIFIED="1564138857001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1562307563951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1562910288578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/selenium" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test4_login_ok.coverage" NAME="test4_login_ok Coverage Results" MODIFIED="1562576376716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_login_ok__2_.coverage" NAME="test_login_ok (2) Coverage Results" MODIFIED="1562145700894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test4_login_ok.coverage" NAME="test4_login_ok Coverage Results" MODIFIED="1564216776752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test9_send_mail.coverage" NAME="test9_send_mail Coverage Results" MODIFIED="1564222010456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test8_quick_login.coverage" NAME="test8_quick_login Coverage Results" MODIFIED="1564146672637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$PO_model.coverage" NAME="PO_model Coverage Results" MODIFIED="1561985621193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test1_null_username.coverage" NAME="test1_null_username Coverage Results" MODIFIED="1562223257892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test5_next_time_auto_login.coverage" NAME="test5_next_time_auto_login Coverage Results" MODIFIED="1564136023139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test5_auto_login.coverage" NAME="test5_auto_login Coverage Results" MODIFIED="1564217138366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_HTMLTestRunner.coverage" NAME="test_HTMLTestRunner Coverage Results" MODIFIED="1561628653456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/迅雷下载" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test2_wrong_password.coverage" NAME="test2_wrong_password Coverage Results" MODIFIED="1562220753536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1561949399208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
@@ -82,16 +85,16 @@
     <session id="1320674946">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="5" />
+          <entry key="project.open.time.13" value="6" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -100,30 +103,30 @@
           <entry key="20190726_日常小结" value="2" />
           <entry key="html" value="1" />
           <entry key="jpg" value="7" />
-          <entry key="py" value="65" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="81" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
           <entry key="Image" value="7" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="65" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="81" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="20190724_日常小结" value="204" />
           <entry key="20190726_日常小结" value="155" />
-          <entry key="dummy" value="22" />
-          <entry key="py" value="7089" />
+          <entry key="dummy" value="29" />
+          <entry key="py" value="8139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="381" />
-          <entry key="Python" value="7089" />
+          <entry key="PLAIN_TEXT" value="388" />
+          <entry key="Python" value="8139" />
         </counts>
       </usages-collector>
     </session>
@@ -133,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/myunit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="60">
+              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
                 <marker date="1564133449160" expanded="true" signature="495:504" ph="..." />
@@ -146,17 +149,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/page_obj/Page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="540">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -167,46 +170,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="1050">
+              <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1564145425215" expanded="true" signature="1232:1699" ph="..." />
-                <marker date="1564145425215" expanded="true" signature="1811:1929" ph="..." />
+                <marker date="1564218619801" expanded="true" signature="1232:1701" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/exception.py">
+        <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test9_send_mail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <marker date="1564147262536" expanded="true" signature="35:40" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run_test_just.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="270">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+                <marker date="1564222349625" expanded="true" signature="365:370" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/正则表达式_ 替换.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_send_mail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="96" column="34" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
+            <state relative-caret-position="660">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <marker date="1564224474768" expanded="true" signature="125:130" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -232,10 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package/test_unit_2.py" />
-        <option value="$PROJECT_DIR$/package/test.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/report/__init__.py" />
-        <option value="$PROJECT_DIR$/package/find_file.py" />
         <option value="$PROJECT_DIR$/package/send_mail.py" />
         <option value="$PROJECT_DIR$/package/send_mail_2.py" />
         <option value="$PROJECT_DIR$/package/runtest_2.py" />
@@ -272,17 +263,21 @@
         <option value="F:/Selenium/login.py" />
         <option value="$PROJECT_DIR$/日常总结/20190724_日常小结" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/Page.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test7_qr_login.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/models/myunit.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test5_next_time_auto_login.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_login.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/test4_login_ok.py" />
         <option value="$USER_HOME$/Desktop/正则表达式_ 替换.py" />
         <option value="$PROJECT_DIR$/run_test_just.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/models/function.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/test8_quick_login.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/models/exception.py" />
         <option value="$PROJECT_DIR$/日常总结/20190726_日常小结" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test5_next_time_auto_login.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test6_next_auto_login.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test5_auto_login.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/models/function.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test7_qr_login.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test9_send_mail.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_login.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_send_mail.py" />
       </list>
     </option>
   </component>
@@ -293,10 +288,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="324" />
-    <option name="y" value="462" />
+    <option name="x" value="185" />
     <option name="width" value="974" />
-    <option name="height" value="524" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -400,6 +394,13 @@
             <path>
               <item name="QQ_mail_auto_test" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="mail_auto_test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test_case" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="page_obj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="QQ_mail_auto_test" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="日常总结" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
@@ -434,8 +435,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_test_just">
-    <configuration name="正则表达式_ 替换" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test9_send_mail">
+    <configuration name="function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ljh_auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -443,34 +444,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/正则表达式_ 替换.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run_test_just" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Ljh_auto_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mail_auto_test/test_case/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_test_just.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/models/function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -479,7 +458,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test5_next_time_auto_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test4_login_ok" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ljh_auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -492,7 +471,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/test5_next_time_auto_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/test4_login_ok.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -501,7 +480,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test7_qr_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test5_auto_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ljh_auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -514,7 +493,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/test7_qr_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/test5_auto_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -523,7 +502,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test8_quick_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test6_next_auto_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ljh_auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -536,7 +515,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/test8_quick_login.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/test6_next_auto_login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test9_send_mail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Ljh_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mail_auto_test/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/test9_send_mail.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -546,19 +547,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.run_test_just" />
-      <item itemvalue="Python.test7_qr_login" />
-      <item itemvalue="Python.正则表达式_ 替换" />
-      <item itemvalue="Python.test5_next_time_auto_login" />
-      <item itemvalue="Python.test8_quick_login" />
+      <item itemvalue="Python.test6_next_auto_login" />
+      <item itemvalue="Python.test4_login_ok" />
+      <item itemvalue="Python.test5_auto_login" />
+      <item itemvalue="Python.function" />
+      <item itemvalue="Python.test9_send_mail" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run_test_just" />
-        <item itemvalue="Python.test8_quick_login" />
-        <item itemvalue="Python.正则表达式_ 替换" />
-        <item itemvalue="Python.test5_next_time_auto_login" />
-        <item itemvalue="Python.test7_qr_login" />
+        <item itemvalue="Python.test9_send_mail" />
+        <item itemvalue="Python.function" />
+        <item itemvalue="Python.test6_next_auto_login" />
+        <item itemvalue="Python.test5_auto_login" />
+        <item itemvalue="Python.test4_login_ok" />
       </list>
     </recent_temporary>
   </component>
@@ -602,7 +603,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4091904" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -663,21 +664,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/selenium/selenuim_RC.py" />
-    <entry file="file://$PROJECT_DIR$/日常总结/20190705_日常小结.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/selenium/test/test_run.py" />
-    <entry file="file://$PROJECT_DIR$/~$自动化脚本编写规则.mmap.~$lock" />
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/check_login.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/report/img/baidu.jpg" />
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/report/img/null_username_login.jpg" />
     <entry file="file://$PROJECT_DIR$/mail_auto_test/report/2019-07-08 11-11-17result.html" />
     <entry file="file://$PROJECT_DIR$/mail_auto_test/report/2019-07-08 11-18-54result.html" />
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/driver.py">
@@ -736,9 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/日常总结/20190703_日常小结.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/日常总结/20190724_日常小结">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -759,20 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="563">
           <caret line="977" selection-start-line="977" selection-end-line="977" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test5_next_time_auto_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test6_forget_password.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
@@ -797,19 +766,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/report/img/unable_auto_login.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常总结/20190726_日常小结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Desktop/正则表达式_ 替换.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
+        <state relative-caret-position="2700">
           <caret line="96" column="34" selection-start-line="96" selection-start-column="34" selection-end-line="96" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test7_qr_login.py">
+    <entry file="file://$PROJECT_DIR$/run_test_just.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="25" column="80" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="80" />
+        <state relative-caret-position="570">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1564147262536" expanded="true" signature="35:40" ph="..." />
           </folding>
         </state>
       </provider>
@@ -821,63 +810,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/report/img/unable_auto_login.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/日常总结/20190703_日常小结.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常总结/20190708_日常小结.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常总结/20190705_日常小结.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="29" column="39" lean-forward="true" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="1990" selection-start-line="1990" selection-end-line="1990" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test6_next_auto_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test4_login_ok.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="300">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test8_quick_login.py">
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test5_auto_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="1021">
+          <caret line="51" column="19" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test7_qr_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1564146672287" expanded="true" signature="367:372" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_test_just.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1564145425215" expanded="true" signature="1232:1699" ph="..." />
-            <marker date="1564145425215" expanded="true" signature="1811:1929" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/exception.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <marker date="1564147262536" expanded="true" signature="35:40" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/myunit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="60">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
             <marker date="1564133449160" expanded="true" signature="495:504" ph="..." />
@@ -885,26 +882,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/page_obj/Page.py">
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/check_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/日常总结/20190726_日常小结">
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test6_forget_password.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        <state relative-caret-position="1050">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test8_quick_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1564146672287" expanded="true" signature="367:372" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/page_obj/Page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="120">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test9_send_mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1564222349625" expanded="true" signature="365:370" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="35" column="60" lean-forward="true" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1564218619801" expanded="true" signature="1232:1701" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_send_mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1564224474768" expanded="true" signature="125:130" ph="..." />
           </folding>
         </state>
       </provider>
