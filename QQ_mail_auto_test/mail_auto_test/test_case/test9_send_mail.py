@@ -18,6 +18,5 @@ class TestSendMail(MyTest):
         pl.quick_login()
 
 
-
 if __name__ == '__main__':
     unittest.main()
