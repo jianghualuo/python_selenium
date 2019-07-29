@@ -1,0 +1,7 @@
+qmEditorIfrmEditArea
+
+frame/iframe 没有可用的id和name进行锁定的话，可以先定位到iframe的位置，传给switch_to.frame（）
+
+在操作邮件功能页面时，弄清楚frame/iframe页面嵌套关系
+
+关于定位方式的选择一定要根据实际情况来确定
