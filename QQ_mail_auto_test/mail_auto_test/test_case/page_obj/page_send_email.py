@@ -1,6 +1,8 @@
 from time import sleep
 from .Page import PageBase
 from selenium.webdriver.common.by import By
+import pyautogui
+import os
 
 
 class PageSendMail(PageBase):
@@ -11,6 +13,10 @@ class PageSendMail(PageBase):
     receiver_loc = (By.XPATH, "//div[@id='toAreaCtrl']/div[2]/input")
     subject_loc = (By.ID, "subject")
     send_loc = (By.XPATH, "//div[@id='toolbar' and @class='clear']/div/a[1]")
+    time_send_loc = (By.XPATH, "//div[@id='toolbar' and @class='clear']/div/a[2]")
+    save_draft_loc = (By.XPATH, "//div[@id='toolbar' and @class='clear']/div/a[3]")
+    exit_loc = (By.XPATH, "//div[@id='toolbar' and @class='clear']/div/a[4]")
+    upload_attachment_loc = (By.XPATH, "//span[@id='AttachFrame']/span/input")
     send_success_loc = (By.ID, "sendinfomsg")
     errmsg_loc = (By.CLASS_NAME, "errmsg")
     frame_2_loc = (By.XPATH, "//div[@id='QMEditorArea']/table/tbody/tr[2]/td/iframe")
@@ -29,6 +35,17 @@ class PageSendMail(PageBase):
         # 添加主题
         self.find_element(*self.subject_loc).send_keys(text)
 
+    def upload_attachment(self):
+        # 添加附件
+        # 该input标签不能够使用click方法点击，
+        # 可以定位到input标签后，使用send_keys直接将要上传文件的路径发过去，这种方法比较可靠。
+        # self.find_element(*self.upload_attachment_loc).send_keys(file)
+        # sleep(3)
+
+        # 可以尝试使用pyautogui模拟鼠标点击
+        pyautogui.click(310, 354)
+        os.system("F:\\Git_lib\\python_selenium\\QQ_mail_auto_test\\package\\upfiles.exe")
+
     def type_mail_body(self, body_text):
         # 添加邮件正文
         # 正文区域是第二层嵌套页面，这里直接定位到第二层嵌套里，定位第一层不在这里做处理
@@ -41,8 +58,20 @@ class PageSendMail(PageBase):
         self.driver.switch_to.parent_frame()
 
     def type_send(self):
-        # 点击邮件正文下方发送按钮
+        # 发送
         self.find_element(*self.send_loc).click()
+
+    def type_time_send(self):
+        # 定时发送
+        self.find_element(*self.time_send_loc).click()
+
+    def type_save_draft(self):
+        # 存草稿
+        self.find_element(*self.save_draft_loc)
+
+    def type_exit(self):
+        # 退出
+        self.find_element(*self.exit_loc)
 
     def send_success_hint(self):
         # 检测邮件是否发送成功，检测提示信息
