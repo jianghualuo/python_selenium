@@ -9,10 +9,10 @@ from models.function import get_screenshot
 from time import sleep
 
 
-class TestSendMail(MyTest):
-    """发送邮件测试"""
+class TestUploadAttachment(MyTest):
+    """上传附件发送邮件测试"""
 
-    def test_send_mail(self):
+    def test_upload_attachment(self):
         """添加附件发送邮件流程测试"""
         # 快捷登录网页
         pl = PageLogin(self.driver)
@@ -28,7 +28,7 @@ class TestSendMail(MyTest):
         # 添加主题
         pse.type_subject("python selenium send email test")
         # 添加附件
-        pse.upload_attachment()
+        pse.upload_attachment1()
         # 添加正文
         body_text = "hello! this is email test!" \
                     "upload_attachment"
