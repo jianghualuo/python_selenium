@@ -17,6 +17,10 @@ class PageSendMail(PageBase):
     save_draft_loc = (By.XPATH, "//div[@id='toolbar' and @class='clear']/div/a[3]")
     exit_loc = (By.XPATH, "//div[@id='toolbar' and @class='clear']/div/a[4]")
     upload_attachment_loc = (By.XPATH, "//span[@id='AttachFrame']/span/input")
+    giant_attachment_loc = (By.XPATH, "//span[@id='bigAttachLink']/a")
+    new_file_loc = (By.XPATH, "//span[@id='selectFile']/span/input")
+    nf_confirm_loc = (By.LINK_TEXT, "确定")
+    nf_exit_loc = (By.LINK_TEXT, "取消")
     send_success_loc = (By.ID, "sendinfomsg")
     errmsg_loc = (By.CLASS_NAME, "errmsg")
     frame_2_loc = (By.XPATH, "//div[@id='QMEditorArea']/table/tbody/tr[2]/td/iframe")
@@ -35,16 +39,33 @@ class PageSendMail(PageBase):
         # 添加主题
         self.find_element(*self.subject_loc).send_keys(text)
 
-    def upload_attachment(self):
+    def upload_attachment1(self):
         # 添加附件
         # 该input标签不能够使用click方法点击，
-        # 可以定位到input标签后，使用send_keys直接将要上传文件的路径发过去，这种方法比较可靠。
-        # self.find_element(*self.upload_attachment_loc).send_keys(file)
-        # sleep(3)
-
-        # 可以尝试使用pyautogui模拟鼠标点击
+        # 可以尝试使用pyautogui模拟鼠标点击“添加附件”按钮，然后使用autoIT的脚本程序
         pyautogui.click(310, 354)
         os.system("F:\\Git_lib\\python_selenium\\QQ_mail_auto_test\\package\\upfiles.exe")
+
+    def upload_attachment2(self, file):
+        # 添加附件
+        # 可以定位到input标签后，使用send_keys直接将要上传文件的路径发过去，这种方法比较可靠。
+        self.find_element(*self.upload_attachment_loc).send_keys(file)
+        sleep(3)
+
+    def upload_attachment3(self, file):
+        # 添加超大附件
+        # 对可以使用click()方法点击元素使用
+        self.find_element(*self.giant_attachment_loc).click()
+        sleep(2)
+        # 该表单和mainframe同一层级，需要先切刀最外层页面，再切入到超大附件表单页面
+        self.driver.switch_to.default_content()
+        self.driver.switch_to.frame("ftnupload_attach_QMDialog__dlgiframe_")
+        self.find_element(*self.new_file_loc).send_keys(file)
+        sleep(10)  # 等待上传文件的扫描
+        self.find_element(*self.nf_confirm_loc).click()
+        # 再次切回mainframe表单页面
+        self.driver.switch_to.default_content()
+        self.driver.switch_to.frame("mainFrame")
 
     def type_mail_body(self, body_text):
         # 添加邮件正文
@@ -67,11 +88,11 @@ class PageSendMail(PageBase):
 
     def type_save_draft(self):
         # 存草稿
-        self.find_element(*self.save_draft_loc)
+        self.find_element(*self.save_draft_loc).click()
 
     def type_exit(self):
         # 退出
-        self.find_element(*self.exit_loc)
+        self.find_element(*self.exit_loc).click()
 
     def send_success_hint(self):
         # 检测邮件是否发送成功，检测提示信息
