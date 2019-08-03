@@ -104,6 +104,14 @@ class PageSendMail(PageBase):
         errmsg = self.find_element(*self.errmsg_loc).text
         assert(errmsg == "请填写收件人后再发送"), "未检测到填写收信人的提示语"
 
+    def select_leave_tip(self, n):
+        # 对离开提示框进行操作
+        # 0：关闭提示；1：是；2：否；3 ：取消
+        loc = [(By.ID, "composeExitAlert_QMDialog__closebtn_"), (By.ID, "composeExitAlert_QMDialog_btn_exit_save"),
+               (By.ID, "composeExitAlert_QMDialog_btn_delete_save"), (By.ID, "composeExitAlert_QMDialog_btn_not_exit")]
+        self.find_element(*loc[n]).click()
+        sleep(2)
+
     def accept_alert(self):
         # 提示框确认
         self.driver.switch_to_alert().accept()
