@@ -1,12 +1,14 @@
 from .Page import PageBase
 from selenium.webdriver.common.by import By
-
+from time import sleep
+import random
 
 class ReceiveEmail(PageBase):
     """
     定义收取邮件模型
     """
 
+    inbox_loc = (By.ID, "readmailbtn_link")
     errmsg_loc = (By.CLASS_NAME, "errmsg")
     del_loc = (By.XPATH, "//form[@id='frm']/div/div[2]/a[1]")
     completely_del_loc = (By.XPATH, "//form[@id='frm']/div/div[2]/a[2]")
@@ -27,7 +29,11 @@ class ReceiveEmail(PageBase):
     fid_130_loc = (By.ID, "select_QMMenu__menuitem_fid_130")
     new_loc = (By.ID, "select_QMMenu__menuitem_new")
 
-    checkbox_loc = (By.CSS_SELECTOR, "[type='checkbox']")
+    checkbox_loc = (By.CSS_SELECTOR, "[type='checkbox'][unread='false']")
+
+    def goto_inbox(self):
+        self.find_element(*self.inbox_loc).click()
+        sleep(2)
 
     def errmsg(self):
         text = self.driver.find_elemnent(*self.errmsg_loc).text
@@ -37,12 +43,29 @@ class ReceiveEmail(PageBase):
         # 勾选所有邮件
         self.find_elements(*self.checkbox_loc).click()
 
-    def check_by_name(self, sender_name):
+    def single_check(self):
+        # 随机选择一个信件，一页最多显示25封信
+        checkbox = self.find_elements(*self.checkbox_loc)
+        checkbox[random.randint(0, 24)].click()
+
+    def check_multi(self):
+        # 随机选择多个邮件，一页最多显示25封信
+        checkbox = self.find_elements(*self.checkbox_loc)
+        for i in range(3):
+            checkbox[random.randint(0, 24)].click()
+
+    def check_by_sender(self, sender_name):
         # 按发件人的姓名勾选邮件
         checkbox = self.find_elements(*self.checkbox_loc)
         for i in checkbox:
             if i.get_attribute("fn") == sender_name:
                 i.click()
+
+    def check_mode(self, n):
+        # 页面提供的快捷选择邮件的方式
+        # 0：全部；1：无；2：已读；3：未读；
+        loc = [(By.LINK_TEXT, "全部"), (By.LINK_TEXT, "无"), (By.LINK_TEXT, "已读"), (By.LINK_TEXT, "未读")]
+        self.find_element(*loc[n]).click()
 
     def del_email(self):
         # 删除
@@ -95,25 +118,25 @@ class ReceiveEmail(PageBase):
         self.find_element(*self.unstar_loc).click()
 
     def move_to_inbox(self):
-        # 取消星标
+        # 移动到收件箱
         # TODO:验证方法未写
         self.find_element(*self.move_loc).click()
         self.find_element(*self.fid_1_loc).click()
 
     def move_to_sent(self):
-        # 取消星标
+        # 移动到已发送
         # TODO:验证方法未写
         self.find_element(*self.move_loc).click()
         self.find_element(*self.fid_3_loc).click()
 
     def move_to_subscription(self):
-        # 取消星标
+        # 移动到订阅
         # TODO:验证方法未写
         self.find_element(*self.move_loc).click()
         self.find_element(*self.fid_130_loc).click()
 
     def new_folder(self):
-        # 取消星标
+        # 新建文件夹
         # TODO:验证方法未写
         self.find_element(*self.move_loc).click()
         self.find_element(*self.new_loc).click()
