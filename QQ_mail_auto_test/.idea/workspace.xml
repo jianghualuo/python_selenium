@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24abec3d-7c35-4c3d-a10a-e4fd7e8b7600" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testE_delete_the_email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testE_complete_delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testG_mark_as_unread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testH_mark_as_read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testI_mark_as_star.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testJ_mark_as_unstar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_receive_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_receive_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_send_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testD_write_out.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testD_write_out.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testE_delete_the_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testF_delete_the_email.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,49 +18,55 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testG_mark_read_or_unread.coverage" NAME="testG_mark_read_or_unread Coverage Results" MODIFIED="1564992848685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$check_login.coverage" NAME="check_login Coverage Results" MODIFIED="1562293781529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test3_wrong_password.coverage" NAME="test3_wrong_password Coverage Results" MODIFIED="1562295109720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$Unittests_in_test_unit_fixtures_py.coverage" NAME="Unittests in test_unit_fixtures.py Coverage Results" MODIFIED="1561619353533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test7_qr_login.coverage" NAME="test7_qr_login Coverage Results" MODIFIED="1564044199289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testE_complete_delete.coverage" NAME="testE_complete_delete Coverage Results" MODIFIED="1564987993681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$Unittests_in_test_unit_skip_py.coverage" NAME="Unittests in test_unit_skip.py Coverage Results" MODIFIED="1561618108543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_login_ok.coverage" NAME="test_login_ok Coverage Results" MODIFIED="1562077390251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case/test case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1562307563951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_login_ok__2_.coverage" NAME="test_login_ok (2) Coverage Results" MODIFIED="1562145700894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testD_write_out.coverage" NAME="testD_write_out Coverage Results" MODIFIED="1564820049019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testH_mark_as_read.coverage" NAME="testH_mark_as_read Coverage Results" MODIFIED="1564996105118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test5_auto_login.coverage" NAME="test5_auto_login Coverage Results" MODIFIED="1564217138366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_HTMLTestRunner.coverage" NAME="test_HTMLTestRunner Coverage Results" MODIFIED="1561628653456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/迅雷下载" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testA_upload_attachment.coverage" NAME="testA_upload_attachment Coverage Results" MODIFIED="1564569085670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1561949399208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_run.coverage" NAME="test_run Coverage Results" MODIFIED="1562318940280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/selenium/test" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test9_quick_login.coverage" NAME="test9_quick_login Coverage Results" MODIFIED="1564216695582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testF_delete_the_email.coverage" NAME="testF_delete_the_email Coverage Results" MODIFIED="1564993891841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test.coverage" NAME="test Coverage Results" MODIFIED="1562223425619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/selenium" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test3_login_ok.coverage" NAME="test3_login_ok Coverage Results" MODIFIED="1562220583636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$check_login.coverage" NAME="check_login Coverage Results" MODIFIED="1562293781529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$run_test_just.coverage" NAME="run_test_just Coverage Results" MODIFIED="1564146958832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test3_wrong_password.coverage" NAME="test3_wrong_password Coverage Results" MODIFIED="1562295109720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$driver.coverage" NAME="driver Coverage Results" MODIFIED="1562311564096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case/models" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$PO_login_qqmail.coverage" NAME="PO_login_qqmail Coverage Results" MODIFIED="1561994659285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_login_ok__1_.coverage" NAME="test_login_ok (1) Coverage Results" MODIFIED="1562079972599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case/test case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$send_mail_2.coverage" NAME="send_mail_2 Coverage Results" MODIFIED="1561951111643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test1_null_password.coverage" NAME="test1_null_password Coverage Results" MODIFIED="1562222985867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testE_delete_the_email.coverage" NAME="testE_delete_the_email Coverage Results" MODIFIED="1564840542603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$Unittests_in_test_unit_fixtures_py.coverage" NAME="Unittests in test_unit_fixtures.py Coverage Results" MODIFIED="1561619353533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test7_qr_login.coverage" NAME="test7_qr_login Coverage Results" MODIFIED="1564044199289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testE_delete_the_email.coverage" NAME="testE_delete_the_email Coverage Results" MODIFIED="1564981984297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$runtest_2.coverage" NAME="runtest_2 Coverage Results" MODIFIED="1561951617036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test0_null_username.coverage" NAME="test0_null_username Coverage Results" MODIFIED="1562555234299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test4_wrong_password.coverage" NAME="test4_wrong_password Coverage Results" MODIFIED="1562223291058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test6_forget_password.coverage" NAME="test6_forget_password Coverage Results" MODIFIED="1563963428653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test6_next_auto_login.coverage" NAME="test6_next_auto_login Coverage Results" MODIFIED="1564217888908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testI_mark_as_star.coverage" NAME="testI_mark_as_star Coverage Results" MODIFIED="1565001803445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testJ_mark_as_unstar.coverage" NAME="testJ_mark_as_unstar Coverage Results" MODIFIED="1565002469666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$login.coverage" NAME="login Coverage Results" MODIFIED="1563963570888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/Selenium" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testB_giant_attachment.coverage" NAME="testB_giant_attachment Coverage Results" MODIFIED="1564736775969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$Unittests_in_test_unit_skip_py.coverage" NAME="Unittests in test_unit_skip.py Coverage Results" MODIFIED="1561618108543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$function.coverage" NAME="function Coverage Results" MODIFIED="1564218429869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case/models" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_login_ok.coverage" NAME="test_login_ok Coverage Results" MODIFIED="1562077390251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case/test case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$find_file.coverage" NAME="find_file Coverage Results" MODIFIED="1561949133986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testC_Save_as_adraft.coverage" NAME="testC_Save_as_adraft Coverage Results" MODIFIED="1564740090215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$__.coverage" NAME="正则表达式_ 替换 Coverage Results" MODIFIED="1564837695012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1562307563951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1562910288578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/selenium" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_login_ok__2_.coverage" NAME="test_login_ok (2) Coverage Results" MODIFIED="1562145700894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test4_login_ok.coverage" NAME="test4_login_ok Coverage Results" MODIFIED="1564216776752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test9_send_mail.coverage" NAME="test9_send_mail Coverage Results" MODIFIED="1564497445043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test8_quick_login.coverage" NAME="test8_quick_login Coverage Results" MODIFIED="1564146672637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$PO_model.coverage" NAME="PO_model Coverage Results" MODIFIED="1561985621193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testD_write_out.coverage" NAME="testD_write_out Coverage Results" MODIFIED="1564820049019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test1_null_username.coverage" NAME="test1_null_username Coverage Results" MODIFIED="1562223257892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test5_next_time_auto_login.coverage" NAME="test5_next_time_auto_login Coverage Results" MODIFIED="1564136023139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test5_auto_login.coverage" NAME="test5_auto_login Coverage Results" MODIFIED="1564217138366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_HTMLTestRunner.coverage" NAME="test_HTMLTestRunner Coverage Results" MODIFIED="1561628653456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="G:/迅雷下载" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testA_upload_attachment.coverage" NAME="testA_upload_attachment Coverage Results" MODIFIED="1564569085670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test2_wrong_password.coverage" NAME="test2_wrong_password Coverage Results" MODIFIED="1562220753536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1561949399208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test_run.coverage" NAME="test_run Coverage Results" MODIFIED="1562318940280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/selenium/test" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-64190358">
@@ -83,18 +92,18 @@
     <session id="1320674946">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="9" />
+          <entry key="project.open.time.13" value="10" />
           <entry key="project.open.time.14" value="3" />
-          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -106,7 +115,7 @@
           <entry key="20190802_日常小结" value="1" />
           <entry key="html" value="1" />
           <entry key="jpg" value="7" />
-          <entry key="py" value="137" />
+          <entry key="py" value="167" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -115,7 +124,7 @@
           <entry key="HTML" value="1" />
           <entry key="Image" value="7" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="137" />
+          <entry key="Python" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -125,46 +134,30 @@
           <entry key="20190729_日常小结" value="27" />
           <entry key="20190730_日常小结" value="77" />
           <entry key="20190802_日常小结" value="36" />
-          <entry key="dummy" value="52" />
-          <entry key="py" value="14837" />
+          <entry key="dummy" value="61" />
+          <entry key="py" value="16378" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="551" />
-          <entry key="Python" value="14837" />
+          <entry key="PLAIN_TEXT" value="560" />
+          <entry key="Python" value="16378" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_receive_email.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="61" column="25" lean-forward="true" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+            <state relative-caret-position="451">
+              <caret line="74" column="24" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1564840288184" expanded="true" signature="1376:1450" ph="..." />
-                <marker date="1564840288184" expanded="true" signature="1708:1717" ph="..." />
-                <marker date="1564840288184" expanded="true" signature="1872:1881" ph="..." />
-                <marker date="1564840288184" expanded="true" signature="1872:2045" ph="..." />
-                <marker date="1564840288184" expanded="true" signature="2300:2305" ph="..." />
-                <marker date="1564840288184" expanded="true" signature="2300:2309" ph="..." />
-                <marker date="1564840288184" expanded="true" signature="2300:2506" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/testE_delete_the_email.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1565001394851" expanded="true" signature="1710:1784" ph="..." />
+                <marker date="1565001394851" expanded="true" signature="2071:2080" ph="..." />
+                <marker date="1565001394851" expanded="true" signature="2267:2276" ph="..." />
               </folding>
             </state>
           </provider>
@@ -191,14 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/run_test.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test3_login_ok.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test1_null_password.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test2_wrong_password.py" />
-        <option value="D:/selenium/test.py" />
-        <option value="$PROJECT_DIR$/../../test/test/test_case.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/test case/test_login.py" />
-        <option value="$PROJECT_DIR$/driver/__init__.py" />
         <option value="$PROJECT_DIR$/driver/driver.py" />
         <option value="D:/selenium/selenuim_RC.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/models/driver.py" />
@@ -240,8 +225,16 @@
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_send_email.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/testD_write_out.py" />
         <option value="$USER_HOME$/Desktop/正则表达式_ 替换.py" />
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_receive_email.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/testE_delete_the_email.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/tetsF_complete_delete.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/testF_delete_the_email.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/testG_mark_read_or_unread.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/testG_mark_as_unread.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/testH_mark_as_read.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_receive_email.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/testE_complete_delete.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/testI_mark_as_star.py" />
+        <option value="$PROJECT_DIR$/mail_auto_test/test_case/testJ_mark_as_unstar.py" />
       </list>
     </option>
   </component>
@@ -251,11 +244,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="452" />
-    <option name="y" value="-8" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="675" />
+    <option name="y" value="12" />
+    <option name="width" value="1189" />
+    <option name="height" value="917" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -265,26 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="QQ_mail_auto_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QQ_mail_auto_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QQ_mail_auto_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="QQ_mail_auto_test" type="462c0819:PsiDirectoryNode" />
-              <item name="mail_auto_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="QQ_mail_auto_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -372,6 +345,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="QQ_mail_auto_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QQ_mail_auto_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QQ_mail_auto_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="QQ_mail_auto_test" type="462c0819:PsiDirectoryNode" />
+              <item name="mail_auto_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QQ_mail_auto_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,30 +393,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testE_delete_the_email">
-    <configuration name="正则表达式_ 替换" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Ljh_auto_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/正则表达式_ 替换.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testB_giant_attachment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.testJ_mark_as_unstar">
+    <configuration name="testF_delete_the_email" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ljh_auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -436,7 +407,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/testB_giant_attachment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/testF_delete_the_email.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -445,7 +416,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testC_Save_as_adraft" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testG_mark_read_or_unread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ljh_auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -458,7 +429,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testC_save_as_draft.py" />
+      <option name="SCRIPT_NAME" value="F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testG_mark_as_unread.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -467,7 +438,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testD_write_out" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testH_mark_as_read" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ljh_auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -480,7 +451,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/testD_write_out.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/testH_mark_as_read.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -489,7 +460,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testE_delete_the_email" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testI_mark_as_star" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ljh_auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -502,7 +473,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/testE_delete_the_email.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/testI_mark_as_star.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testJ_mark_as_unstar" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Ljh_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mail_auto_test/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/testJ_mark_as_unstar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -512,19 +505,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.正则表达式_ 替换" />
-      <item itemvalue="Python.testB_giant_attachment" />
-      <item itemvalue="Python.testC_Save_as_adraft" />
-      <item itemvalue="Python.testD_write_out" />
-      <item itemvalue="Python.testE_delete_the_email" />
+      <item itemvalue="Python.testG_mark_read_or_unread" />
+      <item itemvalue="Python.testF_delete_the_email" />
+      <item itemvalue="Python.testH_mark_as_read" />
+      <item itemvalue="Python.testI_mark_as_star" />
+      <item itemvalue="Python.testJ_mark_as_unstar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.testE_delete_the_email" />
-        <item itemvalue="Python.正则表达式_ 替换" />
-        <item itemvalue="Python.testD_write_out" />
-        <item itemvalue="Python.testC_Save_as_adraft" />
-        <item itemvalue="Python.testB_giant_attachment" />
+        <item itemvalue="Python.testJ_mark_as_unstar" />
+        <item itemvalue="Python.testI_mark_as_star" />
+        <item itemvalue="Python.testH_mark_as_read" />
+        <item itemvalue="Python.testF_delete_the_email" />
+        <item itemvalue="Python.testG_mark_read_or_unread" />
       </list>
     </recent_temporary>
   </component>
@@ -565,9 +558,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18070363" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -575,7 +569,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.5960912" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.5917481" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="运行" order="7" weight="0.41304347" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
@@ -628,11 +622,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/geckodriver.log" />
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/geckodriver.log" />
-    <entry file="file://D:/Users/LJH/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/selenium/webdriver/remote/errorhandler.py" />
-    <entry file="file://D:/Users/LJH/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
-    <entry file="file://D:/selenium/login.py" />
     <entry file="file://D:/selenium/baidu.py" />
     <entry file="file://F:/Selenium/baidu.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -766,9 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/check_login.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/test6_forget_password.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
@@ -867,31 +853,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/正则表达式_ 替换.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="128" column="12" lean-forward="true" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/check_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_send_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <marker date="1564818114645" expanded="true" signature="152:157" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="1190:1195" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="1190:1199" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="1190:1284" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="1540:1549" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="1540:2599" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="1811:1816" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="1811:1820" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="1826:1835" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="2015:2020" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="2015:2024" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="2015:2599" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="2635:2644" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="3104:3109" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="3104:3113" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="3206:3215" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="3302:3311" ph="..." />
-            <marker date="1564818114645" expanded="true" signature="3302:3371" ph="..." />
-          </folding>
+        <state relative-caret-position="511">
+          <caret line="112" column="16" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/testD_write_out.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -899,56 +885,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
           <caret line="40" column="47" lean-forward="true" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/testG_mark_as_unread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="63" column="64" selection-start-line="63" selection-start-column="64" selection-end-line="63" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/testH_mark_as_read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1621">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/testD_write_out.py">
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/testF_delete_the_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-539">
-          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="571">
+          <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1564819916264" expanded="true" signature="785:794" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/正则表达式_ 替换.py">
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/testE_complete_delete.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="128" column="12" lean-forward="true" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
+        <state relative-caret-position="2640">
+          <caret line="88" column="47" lean-forward="true" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
           <folding>
-            <element signature="e#1055#1064#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/testJ_mark_as_unstar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/testI_mark_as_star.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1565002194855" expanded="true" signature="314:319" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_receive_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="61" column="25" lean-forward="true" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        <state relative-caret-position="451">
+          <caret line="74" column="24" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <marker date="1564840288184" expanded="true" signature="1376:1450" ph="..." />
-            <marker date="1564840288184" expanded="true" signature="1708:1717" ph="..." />
-            <marker date="1564840288184" expanded="true" signature="1872:1881" ph="..." />
-            <marker date="1564840288184" expanded="true" signature="1872:2045" ph="..." />
-            <marker date="1564840288184" expanded="true" signature="2300:2305" ph="..." />
-            <marker date="1564840288184" expanded="true" signature="2300:2309" ph="..." />
-            <marker date="1564840288184" expanded="true" signature="2300:2506" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/testE_delete_the_email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1565001394851" expanded="true" signature="1710:1784" ph="..." />
+            <marker date="1565001394851" expanded="true" signature="2071:2080" ph="..." />
+            <marker date="1565001394851" expanded="true" signature="2267:2276" ph="..." />
           </folding>
         </state>
       </provider>
