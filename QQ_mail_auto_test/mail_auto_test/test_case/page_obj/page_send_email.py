@@ -22,9 +22,9 @@ class PageSendMail(PageBase):
     nf_confirm_loc = (By.LINK_TEXT, "确定")
     nf_exit_loc = (By.LINK_TEXT, "取消")
     send_success_loc = (By.ID, "sendinfomsg")
-    errmsg_loc = (By.CLASS_NAME, "errmsg")
     frame_2_loc = (By.XPATH, "//div[@id='QMEditorArea']/table/tbody/tr[2]/td/iframe")
     body_loc = (By.TAG_NAME, "body")
+    message_box_loc = (By.CSS_SELECTOR, "div#msgBoxDIV>span.errmsg")
 
     def goto_letter(self):
         # 进入“写信”页面
@@ -94,21 +94,27 @@ class PageSendMail(PageBase):
         # 退出
         self.find_element(*self.exit_loc).click()
 
+    def get_message_box(self):
+        # TODO:这个地方还分msg和errmsg，之后要改正
+        # 获取收信页面操作后的成功提示
+        return self.find_element(*self.message_box_loc).text
+
     def send_success_hint(self):
         # 检测邮件是否发送成功，检测提示信息
         text = self.find_element(*self.send_success_loc).text
         assert(text == "您的邮件已发送"), "邮件没有发送成功!"
-
-    def errmsg(self):
-        # 检测报错提示信息
-        errmsg = self.find_element(*self.errmsg_loc).text
-        assert(errmsg == "请填写收件人后再发送"), "未检测到填写收信人的提示语"
 
     def select_leave_tip(self, n):
         # 对离开提示框进行操作
         # 0：关闭提示；1：是；2：否；3 ：取消
         loc = [(By.ID, "composeExitAlert_QMDialog__closebtn_"), (By.ID, "composeExitAlert_QMDialog_btn_exit_save"),
                (By.ID, "composeExitAlert_QMDialog_btn_delete_save"), (By.ID, "composeExitAlert_QMDialog_btn_not_exit")]
+        self.find_element(*loc[n]).click()
+        sleep(2)
+
+    def prompt_confirmation(self, n):
+        # 删除确认：0 是“确定”；1 是“取消”
+        loc = [(By.ID, "QMconfirm_QMDialog_confirm"), (By.ID, "QMconfirm_QMDialog_cancel")]
         self.find_element(*loc[n]).click()
         sleep(2)
 
