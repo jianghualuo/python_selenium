@@ -36,7 +36,9 @@ class ReceiveEmail(PageBase):
 
     folder_5_loc = (By.ID, "folder_5")  # 【已删除】
     star_mail_loc = (By.ID, "folder_starred")  # 【星标邮件】
+    sent_mail_loc = (By.ID, "folder_3")  # 【已发送】
     mail_statistics_loc = (By.CSS_SELECTOR, "div#qqmail_mailcontainer>div.txt_title")
+    message_box_loc = (By.CSS_SELECTOR, "div#msgBoxDIV>span.msg")
 
     def goto_inbox(self):
         self.find_element(*self.inbox_loc).click()
@@ -99,55 +101,46 @@ class ReceiveEmail(PageBase):
 
     def mark_as_read(self):
         # 标记为已读
-        # TODO:验证方法未写
         self.find_element(*self.mark_loc).click()
         self.find_element(*self.read_loc).click()
 
     def mark_as_unread(self):
         # 标记为未读
-        # TODO:验证方法未写
         self.find_element(*self.mark_loc).click()
         self.find_element(*self.unread_loc).click()
 
     def mark_as_star(self):
         # 标记为星标
-        # TODO:验证方法未写
         self.find_element(*self.mark_loc).click()
         self.find_element(*self.star_loc).click()
 
     def mark_as_unstar(self):
         # 取消星标
-        # TODO:验证方法未写
         self.find_element(*self.mark_loc).click()
         self.find_element(*self.unstar_loc).click()
 
     def newtag(self):
         # 新建标签
-        # TODO:验证方法未写
         self.find_element(*self.mark_loc).click()
         self.find_element(*self.unstar_loc).click()
 
     def move_to_inbox(self):
         # 移动到收件箱
-        # TODO:验证方法未写
         self.find_element(*self.move_loc).click()
         self.find_element(*self.fid_1_loc).click()
 
     def move_to_sent(self):
         # 移动到已发送
-        # TODO:验证方法未写
         self.find_element(*self.move_loc).click()
         self.find_element(*self.fid_3_loc).click()
 
     def move_to_subscription(self):
         # 移动到订阅
-        # TODO:验证方法未写
         self.find_element(*self.move_loc).click()
         self.find_element(*self.fid_130_loc).click()
 
     def new_folder(self):
         # 新建文件夹
-        # TODO:验证方法未写
         self.find_element(*self.move_loc).click()
         self.find_element(*self.new_loc).click()
 
@@ -169,7 +162,21 @@ class ReceiveEmail(PageBase):
         self.find_element(*self.star_mail_loc).click()
         sleep(1)
         self.driver.switch_to.frame("mainFrame")
-        return self.find_element(*self.mail_statistics_loc).text
+        text = self.find_element(*self.mail_statistics_loc).text
+        return re.search("\d+", text).group()
+
+    def sent_mail_statistics(self):
+        # 已发送邮件统计
+        self.find_element(*self.sent_mail_loc).click()
+        sleep(1)
+        self.driver.switch_to.frame("mainFrame")
+        text = self.find_element(*self.mail_statistics_loc).text
+        self.driver.switch_to.default_content()
+        return re.search("\d+", text).group()
+
+    def get_message_box(self):
+        # 获取收信页面操作后的成功提示
+        return self.find_element(*self.message_box_loc).text
 
     def prompt_confirmation(self, n):
         # 删除确认：0 是“确定”；1 是“取消”
