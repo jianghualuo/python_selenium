@@ -2,6 +2,7 @@ from .Page import PageBase
 from selenium.webdriver.common.by import By
 from time import sleep
 import random
+import re
 
 class ReceiveEmail(PageBase):
     """
@@ -29,7 +30,13 @@ class ReceiveEmail(PageBase):
     fid_130_loc = (By.ID, "select_QMMenu__menuitem_fid_130")
     new_loc = (By.ID, "select_QMMenu__menuitem_new")
 
-    checkbox_loc = (By.CSS_SELECTOR, "[type='checkbox'][unread='false']")
+    checkbox_loc = [(By.CSS_SELECTOR, "[type='checkbox'][unread='false']"),
+                    (By.CSS_SELECTOR, "[type='checkbox'][unread='true']")]
+    check_all_loc = (By.CSS_SELECTOR, "#ckb_selectAll")
+
+    folder_5_loc = (By.ID, "folder_5")  # 【已删除】
+    star_mail_loc = (By.ID, "folder_starred")  # 【星标邮件】
+    mail_statistics_loc = (By.CSS_SELECTOR, "div#qqmail_mailcontainer>div.txt_title")
 
     def goto_inbox(self):
         self.find_element(*self.inbox_loc).click()
@@ -41,22 +48,25 @@ class ReceiveEmail(PageBase):
 
     def all_check(self):
         # 勾选所有邮件
-        self.find_elements(*self.checkbox_loc).click()
+        self.find_element(*self.check_all_loc).click()
 
-    def single_check(self):
+    def single_check(self, n):
+        # 0 是已读邮件；1 是未读邮件
         # 随机选择一个信件，一页最多显示25封信
-        checkbox = self.find_elements(*self.checkbox_loc)
+        checkbox = self.find_elements(*self.checkbox_loc[n])
         checkbox[random.randint(0, 24)].click()
 
-    def check_multi(self):
+    def check_multi(self, n):
+        # 0 是已读邮件；1 是未读邮件
         # 随机选择多个邮件，一页最多显示25封信
-        checkbox = self.find_elements(*self.checkbox_loc)
+        checkbox = self.find_elements(*self.checkbox_loc[n])
         for i in range(3):
             checkbox[random.randint(0, 24)].click()
 
-    def check_by_sender(self, sender_name):
+    def check_by_sender(self, sender_name, n):
+        # 0 是已读邮件；1 是未读邮件
         # 按发件人的姓名勾选邮件
-        checkbox = self.find_elements(*self.checkbox_loc)
+        checkbox = self.find_elements(*self.checkbox_loc[n])
         for i in checkbox:
             if i.get_attribute("fn") == sender_name:
                 i.click()
@@ -140,6 +150,32 @@ class ReceiveEmail(PageBase):
         # TODO:验证方法未写
         self.find_element(*self.move_loc).click()
         self.find_element(*self.new_loc).click()
+
+    def verify_complete_deletion(self):
+        # 验证彻底删除的信件不会出现在已删除
+        self.find_element(*self.folder_5_loc).click()
+        sleep(1)
+        self.driver.switch_to.frame("mainFrame")
+        text = self.find_element(*self.mail_statistics_loc).text
+        assert(re.search("\d+", text) is None), "错误：彻底删除的邮件出现在了已删除目录"
+
+    def verify_no_unread(self):
+        # 验证没有未读邮件
+        text = self.find_element(*self.mail_statistics_loc).text
+        assert(len(re.findall("\d+", text)) is 1), "还存在未读邮件"
+
+    def star_mail_statistics(self):
+        # 星标邮件统计
+        self.find_element(*self.star_mail_loc).click()
+        sleep(1)
+        self.driver.switch_to.frame("mainFrame")
+        return self.find_element(*self.mail_statistics_loc).text
+
+    def prompt_confirmation(self, n):
+        # 删除确认：0 是“确定”；1 是“取消”
+        loc = [(By.ID, "QMconfirm_QMDialog_confirm"), (By.ID, "QMconfirm_QMDialog_cancel")]
+        self.find_element(*loc[n]).click()
+        sleep(2)
 
     def accept_alert(self):
         # 提示框确认
