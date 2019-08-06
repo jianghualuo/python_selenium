@@ -46,6 +46,7 @@ def report_new(report_dir):
     file_new = os.path.join(report_dir, lists[-1])
     return file_new
 
+
 if __name__ == '__main__':
     # 定义存放路径
     now = time.strftime("%Y-%m-%d %H-%M-%S")
