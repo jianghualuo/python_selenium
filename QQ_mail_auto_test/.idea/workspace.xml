@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24abec3d-7c35-4c3d-a10a-e4fd7e8b7600" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/mail_auto_test/test_case/test9_required_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testL_move_to_sent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_receive_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_receive_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_send_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/test9_send_mail_normally.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testA_send_mail_normally.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testA_upload_attachment.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testC_upload_attachment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testC_save_as_draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testD_save_as_draft.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testD_write_out.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testE_write_out.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testE_complete_delete.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testF_complete_delete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testF_delete_the_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testG_delete_the_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testG_mark_as_unread.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testH_mark_as_unread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testH_mark_as_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testI_mark_as_read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testI_mark_as_star.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testJ_mark_as_star.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testJ_mark_as_unstar.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testK_mark_as_unstar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +53,7 @@
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$function.coverage" NAME="function Coverage Results" MODIFIED="1564218429869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case/models" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$find_file.coverage" NAME="find_file Coverage Results" MODIFIED="1561949133986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/package" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$testC_Save_as_adraft.coverage" NAME="testC_Save_as_adraft Coverage Results" MODIFIED="1564740090215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
-    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$__.coverage" NAME="正则表达式_ 替换 Coverage Results" MODIFIED="1564837695012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/QQ_mail_auto_test$__.coverage" NAME="正则表达式_ 替换 Coverage Results" MODIFIED="1565065637634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$baidu.coverage" NAME="baidu Coverage Results" MODIFIED="1562910288578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/selenium" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test4_login_ok.coverage" NAME="test4_login_ok Coverage Results" MODIFIED="1564216776752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
     <SUITE FILE_PATH="coverage/QQ_mail_auto_test$test9_send_mail.coverage" NAME="test9_send_mail Coverage Results" MODIFIED="1564497445043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mail_auto_test/test_case" />
@@ -102,7 +88,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="24" />
-          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="10" />
           <entry key="project.open.time.14" value="3" />
@@ -112,7 +98,7 @@
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -125,7 +111,7 @@
           <entry key="html" value="1" />
           <entry key="jpg" value="7" />
           <entry key="log" value="1" />
-          <entry key="py" value="203" />
+          <entry key="py" value="207" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -134,7 +120,7 @@
           <entry key="HTML" value="1" />
           <entry key="Image" value="7" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="203" />
+          <entry key="Python" value="207" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -145,19 +131,41 @@
           <entry key="20190730_日常小结" value="77" />
           <entry key="20190802_日常小结" value="36" />
           <entry key="dummy" value="75" />
-          <entry key="py" value="17870" />
+          <entry key="py" value="18005" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="574" />
-          <entry key="Python" value="17870" />
+          <entry key="Python" value="18005" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_test_just.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1470">
+              <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -178,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mail_auto_test/test_case/check_login.py" />
         <option value="D:/selenium/test/test_run.py" />
         <option value="$PROJECT_DIR$/日常总结/20190705_日常小结.txt" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/test1_null_username.py" />
@@ -212,7 +219,6 @@
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/testA_upload_attachment.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/testB_giant_attachment.py" />
         <option value="$PROJECT_DIR$/日常总结/20190802_日常小结" />
-        <option value="$USER_HOME$/Desktop/正则表达式_ 替换.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/testE_delete_the_email.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/tetsF_complete_delete.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/testG_mark_read_or_unread.py" />
@@ -229,6 +235,8 @@
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_receive_email.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_send_email.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/test9_required_test.py" />
+        <option value="$USER_HOME$/Desktop/正则表达式_ 替换.py" />
+        <option value="$PROJECT_DIR$/run_test.py" />
       </list>
     </option>
   </component>
@@ -238,7 +246,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="590" />
     <option name="y" value="21" />
     <option name="width" value="1189" />
@@ -387,7 +395,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test9_required_test">
+  <component name="RunManager" selected="Python.正则表达式_ 替换">
+    <configuration name="正则表达式_ 替换" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Ljh_auto_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/正则表达式_ 替换.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test9_required_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ljh_auto_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -402,28 +432,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mail_auto_test/test_case/test9_required_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="testH_mark_as_read" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Ljh_auto_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mail_auto_test/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testI_mark_as_read.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -499,19 +507,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.testH_mark_as_read" />
       <item itemvalue="Python.testI_mark_as_star" />
       <item itemvalue="Python.testJ_mark_as_unstar" />
       <item itemvalue="Python.testK_move_to_sent" />
       <item itemvalue="Python.test9_required_test" />
+      <item itemvalue="Python.正则表达式_ 替换" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.正则表达式_ 替换" />
         <item itemvalue="Python.test9_required_test" />
         <item itemvalue="Python.testK_move_to_sent" />
         <item itemvalue="Python.testJ_mark_as_unstar" />
         <item itemvalue="Python.testI_mark_as_star" />
-        <item itemvalue="Python.testH_mark_as_read" />
       </list>
     </recent_temporary>
   </component>
@@ -553,8 +561,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230277" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18443497" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -679,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_test_just.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/models/exception.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -781,13 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="50" column="44" lean-forward="true" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/日常总结/20190802_日常小结">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -809,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/正则表达式_ 替换.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="128" column="12" lean-forward="true" selection-start-line="128" selection-start-column="12" selection-end-line="128" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/check_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -827,10 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1890">
           <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1565015084377" expanded="true" signature="304:309" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,9 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1439">
           <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -855,9 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="601">
           <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,9 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -875,9 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1381">
           <caret line="90" column="62" selection-start-line="90" selection-start-column="62" selection-end-line="90" selection-end-column="62" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,9 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="74" column="36" lean-forward="true" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -912,9 +881,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/geckodriver.log" />
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/page_obj/Page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -926,16 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <marker date="1565024134402" expanded="true" signature="1825:1899" ph="..." />
-            <marker date="1565024134402" expanded="true" signature="2186:2195" ph="..." />
-            <marker date="1565024134402" expanded="true" signature="2382:2391" ph="..." />
-            <marker date="1565024134402" expanded="true" signature="5702:5711" ph="..." />
-            <marker date="1565024134402" expanded="true" signature="6032:6037" ph="..." />
-            <marker date="1565024134402" expanded="true" signature="6032:6041" ph="..." />
-            <marker date="1565024134402" expanded="true" signature="6032:6120" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -943,11 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2911">
           <caret line="108" column="19" lean-forward="true" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1565016033196" expanded="true" signature="310:315" ph="..." />
-            <marker date="1565016033196" expanded="true" signature="1179:1188" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -955,9 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="691">
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -965,20 +914,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="40" column="21" lean-forward="true" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1565024254602" expanded="true" signature="305:310" ph="..." />
-            <marker date="1565024254602" expanded="true" signature="1028:1037" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/正则表达式_ 替换.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1261">
+          <caret line="155" column="43" lean-forward="true" selection-start-line="155" selection-start-column="43" selection-end-line="155" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_send_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        <state relative-caret-position="-509">
+          <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_test_just.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
