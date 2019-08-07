@@ -14,7 +14,7 @@ class TestNullUsername(MyTest):
     def test_null_username(self):
         """测试空户名和正确密码登录"""
         pl = PageLogin(self.driver)
-        pl.test_login("", "LJH-ljh@169914@")
+        pl.test_login("", "xxxxxxx")
         sleep(3)
         get_screenshot(self.driver, "./mail_auto_test/report/img/null_username_login2.jpg")
         self.assertEqual(pl.login_error(), "你还没有输入帐号！")
