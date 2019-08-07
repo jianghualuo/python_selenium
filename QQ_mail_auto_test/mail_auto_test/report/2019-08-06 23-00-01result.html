@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>测试报告</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { }
+
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+	font-size: 16pt;
+	color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    width: 500px;
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #777;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#result_table td {
+    border: 1px solid #777;
+    padding: 2px;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #6c6; }
+.failClass  { background-color: #c60; }
+.errorClass { background-color: #c00; }
+.passCase   { color: #6c6; }
+.failCase   { color: #c60; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+</style>
+
+</head>
+<body>
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Failed; 2:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'ft') {
+            if (level < 1) {
+                tr.className = 'hiddenRow';
+            }
+            else {
+                tr.className = '';
+            }
+        }
+        if (id.substr(0,2) == 'pt') {
+            if (level > 1) {
+                tr.className = '';
+            }
+            else {
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'f' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'p' + tid0;
+            tr = document.getElementById(tid);
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+
+<div class='heading'>
+<h1>测试报告</h1>
+<p class='attribute'><strong>Start Time:</strong> 2019-08-06 23:00:01</p>
+<p class='attribute'><strong>Duration:</strong> 0:31:40.324155</p>
+<p class='attribute'><strong>Status:</strong> Pass 29 Failure 8 Error 13</p>
+
+<p class='description'>用例执行情况</p>
+</div>
+
+
+
+<p id='show_detail_line'>Show
+<a href='javascript:showCase(0)'>Summary</a>
+<a href='javascript:showCase(1)'>Failed</a>
+<a href='javascript:showCase(2)'>All</a>
+</p>
+<table id='result_table'>
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>Test Group/Test case</td>
+    <td>Count</td>
+    <td>Pass</td>
+    <td>Fail</td>
+    <td>Error</td>
+    <td>View</td>
+</tr>
+
+<tr class='passClass'>
+    <td>test0_null_username.TestNullUsername: 登录测试</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_null_username: 测试空户名和空密码登录</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
+        pass</a>
+
+    <div id='div_pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt1.1: C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py:1031: UserWarning: name used for saved screenshot does not match file type. It should end with a `.png` extension
+  "type. It should end with a `.png` extension", UserWarning)
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test1_null_username.TestNullUsername: 登录测试</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
+</tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_null_username: 测试空户名和正确密码登录</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='passClass'>
+    <td>test2_null_password.TestNullPassword: 登录测试</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c3',1)">Detail</a></td>
+</tr>
+
+<tr id='pt3.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_null_password: 测试空密码登录</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='passClass'>
+    <td>test3_wrong_password.TestWrongPassword: 登录测试</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c4',1)">Detail</a></td>
+</tr>
+
+<tr id='pt4.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_wrong_password: 错误密码登录测试</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='passClass'>
+    <td>test4_login_ok.TestLoginOk: 登录测试</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c5',1)">Detail</a></td>
+</tr>
+
+<tr id='pt5.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_login_ok: 正确的用户名和密码登录测试</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>test5_auto_login.TestAutoLogin: 测试“下次自动登录”功能</td>
+    <td>2</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c6',2)">Detail</a></td>
+</tr>
+
+<tr id='pt6.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test1_auto_login_next: 勾选【下次自动登录】登录测试</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='ft6.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test2_logout: 退出登录后，再次打开QQ邮箱登录页面是否自动登录</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft6.2')" >
+        error</a>
+
+    <div id='div_ft6.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft6.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft6.2: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\test5_auto_login.py", line 32, in test2_logout
+    pl.find_element(By.LINK_TEXT, "退出").click()
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\Page.py", line 31, in find_element
+    return self.driver.find_element(*loc)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: 退出
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>test6_forget_password.TestForgetPassword: 测试登录界面“忘了密码”功能</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c7',1)">Detail</a></td>
+</tr>
+
+<tr id='ft7.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_forget_password: 测试点击“忘了密码”后页面跳转是否正确</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft7.1')" >
+        error</a>
+
+    <div id='div_ft7.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft7.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft7.1: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\test6_forget_password.py", line 23, in test_forget_password
+    self.driver.find_element_by_id('forgetpwd').click()
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="forgetpwd"]
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test7_qr_login.TestQrLogin: 测试扫码快捷登录</td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c8',3)">Detail</a></td>
+</tr>
+
+<tr id='pt8.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test1_qr_is_dispalyed: 测试二维码存在</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt8.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test2_qr_failure: 测试二维码（有效时间为125s）是否会失效</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt8.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test3_qr_info_link: 测试手机QQ链接地址跳转是否正确</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='passClass'>
+    <td>test8_quick_login.TestQuickLogin: 测试PC端登录QQ后，邮箱网页的快捷登录功能</td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c9',3)">Detail</a></td>
+</tr>
+
+<tr id='pt9.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test1_img_nick_is_displayed: 检测登录控件是否会有快捷登录的相关信息并且显示是否正确</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt9.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test2_quick_login: 点击快捷登录控件的QQ头像是否能登陆成功</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt9.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test3_quick_login: 点击快捷登录控件的QQ昵称是否能登陆成功</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='passClass'>
+    <td>test9_required_test.TestRequired: 测试写信必填项：收信人、主题、正文</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c10',1)">Detail</a></td>
+</tr>
+
+<tr id='pt10.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test1_send_no_receiver: 未填写收信人直接点击发送（预期：不能发送）</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='passClass'>
+    <td>testA_send_mail_normally.TestSendMail: 发送邮件测试</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c11',1)">Detail</a></td>
+</tr>
+
+<tr id='pt11.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_send_mail: 发送邮件的最基本流程测试</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>testB_giant_attachment.TestGiantAttachment: 上传超大附件发送邮件测试</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c12',1)">Detail</a></td>
+</tr>
+
+<tr id='ft12.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_giant_attachment: 添加超大附件发送邮件流程测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft12.1')" >
+        error</a>
+
+    <div id='div_ft12.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft12.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft12.1: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testB_giant_attachment.py", line 19, in test_giant_attachment
+    pl.quick_login()
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\page_login.py", line 55, in quick_login
+    self.find_element(*loc).click()
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\Page.py", line 31, in find_element
+    return self.driver.find_element(*loc)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="img_out_1414710823"]
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>testC_upload_attachment.TestUploadAttachment: 上传附件发送邮件测试</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c13',1)">Detail</a></td>
+</tr>
+
+<tr id='pt13.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_upload_attachment: 添加附件发送邮件流程测试</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>testD_save_as_draft.TestSaveAsDraft: 发送邮件测试</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c14',1)">Detail</a></td>
+</tr>
+
+<tr id='ft14.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_save_as_draft: 写信存为草稿测试</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft14.1')" >
+        error</a>
+
+    <div id='div_ft14.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft14.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft14.1: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testD_save_as_draft.py", line 27, in test_save_as_draft
+    num_1 = re.search("\d+", text_1).group()
+AttributeError: 'NoneType' object has no attribute 'group'
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>testE_write_out.TestWriteOut: 关闭写信页面测试</td>
+    <td>3</td>
+    <td>2</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c15',3)">Detail</a></td>
+</tr>
+
+<tr id='pt15.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test1_write_out: 未添加任何邮件内容，关闭写信页面</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt15.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test2_write_out: 添加了邮件主题或正文，关闭写信页面，且不将改动存为草稿</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='ft15.3' class='none'>
+    <td class='errorCase'><div class='testcase'>test3_write_out: 添加了邮件主题或正文，关闭写信页面，且将改动存为草稿</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft15.3')" >
+        error</a>
+
+    <div id='div_ft15.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft15.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft15.3: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testE_write_out.py", line 76, in test3_write_out
+    assert(pse.get_message_box() == now + " 邮件成功保存到草稿箱"), "未保存成功"
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\page_send_email.py", line 100, in get_message_box
+    return self.find_element(*self.message_box_loc).text
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\Page.py", line 31, in find_element
+    return self.driver.find_element(*loc)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: div#msgBoxDIV&gt;span.errmsg
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>testF_complete_delete.TestCompleteTheEmail: 收件箱，信件彻底删除测试</td>
+    <td>4</td>
+    <td>1</td>
+    <td>0</td>
+    <td>3</td>
+    <td><a href="javascript:showClassDetail('c16',4)">Detail</a></td>
+</tr>
+
+<tr id='pt16.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test1_single_delete: 随机勾选一个信件彻底删除</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='ft16.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test2_batch_del: 随机批量彻底删除</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft16.2')" >
+        error</a>
+
+    <div id='div_ft16.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft16.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft16.2: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testF_complete_delete.py", line 45, in test2_batch_del
+    ree.check_multi(0)
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\page_receive_email.py", line 66, in check_multi
+    checkbox[random.randint(0, 24)].click()
+IndexError: list index out of range
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft16.3' class='none'>
+    <td class='errorCase'><div class='testcase'>test3_del_by_sender: 按发件人姓名勾选彻底删除</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft16.3')" >
+        error</a>
+
+    <div id='div_ft16.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft16.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft16.3: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testF_complete_delete.py", line 73, in test3_del_by_sender
+    ree.verify_complete_deletion()
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\page_receive_email.py", line 149, in verify_complete_deletion
+    self.find_element(*self.folder_5_loc).click()
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: Element &lt;a id="folder_5" class="f_size" href="/cgi-bin/mail_list?sid=dVLosnT5wpDZNmI-&amp;folderid=5&amp;page=0&amp;loc=folderlist,,,5"&gt; is not clickable at point (98,310) because another element &lt;div id="qqmail_mask" class="editor_mask opa50Mask "&gt; obscures it
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft16.4' class='none'>
+    <td class='errorCase'><div class='testcase'>test4_del_all: 全部勾选彻底删除</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft16.4')" >
+        error</a>
+
+    <div id='div_ft16.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft16.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft16.4: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testF_complete_delete.py", line 93, in test4_del_all
+    ree.verify_complete_deletion()
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\page_receive_email.py", line 149, in verify_complete_deletion
+    self.find_element(*self.folder_5_loc).click()
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: Element &lt;a id="folder_5" class="f_size" href="/cgi-bin/mail_list?sid=dVLosnT5wpDZNmI-&amp;folderid=5&amp;page=0&amp;loc=folderlist,,,5"&gt; is not clickable at point (98,310) because another element &lt;div id="qqmail_mask" class="editor_mask opa50Mask "&gt; obscures it
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='errorClass'>
+    <td>testG_delete_the_email.TestDeleteTheEmail: 收件箱，信件删除测试</td>
+    <td>4</td>
+    <td>3</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c17',4)">Detail</a></td>
+</tr>
+
+<tr id='pt17.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test1_single_delete: 随机勾选一个信件进行删除</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt17.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test2_batch_del: 随机批量删除</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt17.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test3_del_by_sender: 按发件人姓名勾选删除</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='ft17.4' class='none'>
+    <td class='errorCase'><div class='testcase'>test4_del_all: 全部勾选删除</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft17.4')" >
+        error</a>
+
+    <div id='div_ft17.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft17.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft17.4: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testG_delete_the_email.py", line 76, in test4_del_all
+    ree.goto_inbox()
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\page_receive_email.py", line 44, in goto_inbox
+    self.find_element(*self.inbox_loc).click()
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\Page.py", line 31, in find_element
+    return self.driver.find_element(*loc)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="readmailbtn_link"]
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='failClass'>
+    <td>testH_mark_as_unread.TestMark: 测试标记功能</td>
+    <td>4</td>
+    <td>1</td>
+    <td>3</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c18',4)">Detail</a></td>
+</tr>
+
+<tr id='ft18.1' class='none'>
+    <td class='failCase'><div class='testcase'>test1_mark_as_unread: 测试随机单个已读标记为未读</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft18.1')" >
+        fail</a>
+
+    <div id='div_ft18.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft18.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft18.1: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testH_mark_as_unread.py", line 31, in test1_mark_as_unread
+    assert(self.driver.find_element_by_id("_ur_c").text == "1"), "标记未读失败"
+AssertionError: 标记未读失败
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft18.2' class='none'>
+    <td class='failCase'><div class='testcase'>test2_mark_as_unread: 测试随机批量已读标记为未读</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft18.2')" >
+        fail</a>
+
+    <div id='div_ft18.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft18.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft18.2: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testH_mark_as_unread.py", line 48, in test2_mark_as_unread
+    assert(self.driver.find_element_by_id("_ur_c").text == "4"), "标记未读失败"
+AssertionError: 标记未读失败
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft18.3' class='none'>
+    <td class='failCase'><div class='testcase'>test3_mark_as_unread: 按发件人姓名标记为未读</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft18.3')" >
+        fail</a>
+
+    <div id='div_ft18.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft18.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft18.3: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testH_mark_as_unread.py", line 65, in test3_mark_as_unread
+    assert(self.driver.find_element_by_id("_ur_c").text &gt; "4"), "标记未读失败"
+AssertionError: 标记未读失败
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt18.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test4_mark_as_unread: 测试页面全部已读标记为未读</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>testI_mark_as_read.TestMark: 测试标记功能</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c19',4)">Detail</a></td>
+</tr>
+
+<tr id='pt19.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test1_mark_as_unread: 测试随机单个未读标记为已读</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='ft19.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test2_mark_as_unread: 测试随机批量未读标记为已读</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft19.2')" >
+        error</a>
+
+    <div id='div_ft19.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft19.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft19.2: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testI_mark_as_read.py", line 39, in test2_mark_as_unread
+    ree.goto_inbox()
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\page_receive_email.py", line 44, in goto_inbox
+    self.find_element(*self.inbox_loc).click()
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\Page.py", line 31, in find_element
+    return self.driver.find_element(*loc)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="readmailbtn_link"]
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft19.3' class='none'>
+    <td class='failCase'><div class='testcase'>test3_mark_as_unread: 按发件人姓名标记为已读</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft19.3')" >
+        fail</a>
+
+    <div id='div_ft19.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft19.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft19.3: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testI_mark_as_read.py", line 64, in test3_mark_as_unread
+    assert(self.driver.find_element_by_id("_ur_c").text &lt; "21"), "标记未读失败"
+AssertionError: 标记未读失败
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt19.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test4_mark_as_unread: 测试页面全部未读标记为已读</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>testJ_mark_as_star.TestMark: 测试标记功能</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c20',4)">Detail</a></td>
+</tr>
+
+<tr id='pt20.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test1_mark_as_star: 测试随机单个邮件标记为星标</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='ft20.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test2_mark_as_star: 测试随机批量邮件标记为星标</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft20.2')" >
+        error</a>
+
+    <div id='div_ft20.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft20.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft20.2: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testJ_mark_as_star.py", line 47, in test2_mark_as_star
+    assert(ree.star_mail_statistics() &gt;= "3"), "标记星标邮件失败"
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\page_receive_email.py", line 162, in star_mail_statistics
+    self.find_element(*self.star_mail_loc).click()
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: Element &lt;a id="folder_starred" class="f_size staradjust" href="/cgi-bin/mail_list?sid=dVLosnT5wpDZNmI-&amp;s=star&amp;folderid=all&amp;flag=star&amp;page=0&amp;need_folderlock=0&amp;fun=slock&amp;loc=folderlist,,,110&amp;topmails=0"&gt; is not clickable at point (98,218) because another element &lt;div id="qqmail_mask" class="editor_mask opa50Mask "&gt; obscures it
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft20.3' class='none'>
+    <td class='failCase'><div class='testcase'>test3_mark_as_star: 测试按发件人姓名将邮件标记为星标</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft20.3')" >
+        fail</a>
+
+    <div id='div_ft20.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft20.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft20.3: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testJ_mark_as_star.py", line 65, in test3_mark_as_star
+    assert(ree.star_mail_statistics() &gt;= "7"), "标记星标邮件失败"
+AssertionError: 标记星标邮件失败
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt20.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test4_mark_as_star: 测试页面全部邮件标记为星标</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>testK_mark_as_unstar.TestMark: 测试标记功能</td>
+    <td>4</td>
+    <td>1</td>
+    <td>2</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c21',4)">Detail</a></td>
+</tr>
+
+<tr id='ft21.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test1_mark_as_unstar: 测试随机单个邮件标记为星标</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft21.1')" >
+        error</a>
+
+    <div id='div_ft21.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft21.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft21.1: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testK_mark_as_unstar.py", line 19, in test1_mark_as_unstar
+    pl.quick_login()
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\page_login.py", line 55, in quick_login
+    self.find_element(*loc).click()
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\Page.py", line 31, in find_element
+    return self.driver.find_element(*loc)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id="img_out_1414710823"]
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft21.2' class='none'>
+    <td class='failCase'><div class='testcase'>test2_mark_as_unstar: 测试随机批量邮件标记为星标</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft21.2')" >
+        fail</a>
+
+    <div id='div_ft21.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft21.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft21.2: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testK_mark_as_unstar.py", line 47, in test2_mark_as_unstar
+    assert(ree.star_mail_statistics() &lt;= "22"), "标记星标邮件失败"
+AssertionError: 标记星标邮件失败
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft21.3' class='none'>
+    <td class='failCase'><div class='testcase'>test3_mark_as_unstar: 测试按发件人姓名将邮件标记为星标</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft21.3')" >
+        fail</a>
+
+    <div id='div_ft21.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft21.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft21.3: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testK_mark_as_unstar.py", line 64, in test3_mark_as_unstar
+    assert(ree.star_mail_statistics() &lt;= "18"), "标记星标邮件失败"
+AssertionError: 标记星标邮件失败
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt21.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test4_mark_as_unstar: 测试页面全部邮件标记为星标</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>testL_move_to_sent.TestMoveToSent: 测试信件移动功能（移动到已发送）</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c22',4)">Detail</a></td>
+</tr>
+
+<tr id='pt22.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test1_move_to_sent: 测试随机勾选单个邮件移动到已发送</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='ft22.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test2_move_to_sent: 测试随机批量勾选邮件标移动到已发送</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft22.2')" >
+        error</a>
+
+    <div id='div_ft22.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft22.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft22.2: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testL_move_to_sent.py", line 58, in test2_move_to_sent
+    mail_num2 = ree.sent_mail_statistics()
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\page_obj\page_receive_email.py", line 170, in sent_mail_statistics
+    self.find_element(*self.sent_mail_loc).click()
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\lenovo\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: Element &lt;a id="folder_3" class="f_size" href="/cgi-bin/mail_list?sid=dVLosnT5wpDZNmI-&amp;folderid=3&amp;page=0&amp;topmails=0&amp;loc=folderlist,,,3"&gt; is not clickable at point (98,287) because another element &lt;div id="qqmail_mask" class="editor_mask opa50Mask "&gt; obscures it
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='ft22.3' class='none'>
+    <td class='failCase'><div class='testcase'>test3_move_to_sent: 测试按发件人姓名勾选邮件移动到已发送</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft22.3')" >
+        fail</a>
+
+    <div id='div_ft22.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft22.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft22.3: Traceback (most recent call last):
+  File "F:\Git_lib\python_selenium\QQ_mail_auto_test\mail_auto_test\test_case\testL_move_to_sent.py", line 83, in test3_move_to_sent
+    assert(int(mail_num2) - int(mail_num1) &lt;= 7), "信件没有移动到已发送目录"
+AssertionError: 信件没有移动到已发送目录
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt22.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test4_move_to_sent: 测试勾选当页全部邮件移动到已发送</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='total_row'>
+    <td>Total</td>
+    <td>50</td>
+    <td>29</td>
+    <td>8</td>
+    <td>13</td>
+    <td>&nbsp;</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+
+</body>
+</html>
