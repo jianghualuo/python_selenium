@@ -56,13 +56,15 @@ class TestMark(MyTest):
         ree.goto_inbox()
         # 按发件人姓名勾选
         self.driver.switch_to.frame("mainFrame")
-        ree.check_by_sender("18827453452", 1)
+        ree.check_by_sender("罗江华", 1)
         # 标记为未读
         ree.mark_as_read()
         sleep(2)
         # 未读邮件统计
-        assert(self.driver.find_element_by_id("_ur_c").text < "21"), "标记未读失败"
+        # assert(self.driver.find_element_by_id("_ur_c").text < "21"), "标记未读失败"
+        ree.verify_no_unread()
 
+    @unittest.skip
     def test4_mark_as_unread(self):
         """测试页面全部未读标记为已读"""
         # 快捷登录网页
