@@ -72,6 +72,7 @@ class TestCompleteTheEmail(MyTest):
         # 切换到已删除目录，查看彻底删除的邮件是否存在
         ree.verify_complete_deletion()
 
+    @unittest.skip
     def test4_del_all(self):
         """全部勾选彻底删除"""
         # 快捷登录网页
