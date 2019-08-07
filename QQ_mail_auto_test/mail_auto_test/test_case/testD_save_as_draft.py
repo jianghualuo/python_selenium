@@ -22,7 +22,7 @@ class TestSaveAsDraft(MyTest):
         pse = PageSendMail(self.driver)
         # 进入写信页面
         pse.goto_letter()
-        # 定位到“草稿箱”，并获取到初始数字
+        # 定位到“草稿箱”，并获取到初始数字;（测试此项前，草稿箱至少要有草稿；此种验证不可靠可以不采用）
         text_1 = self.driver.find_element_by_id("folder_4").text
         num_1 = re.search("\d+", text_1).group()
         # 切换到iframe表单mainFrame
@@ -33,7 +33,7 @@ class TestSaveAsDraft(MyTest):
         # 第一种验证根据页面提示
         # self.driver.switch_to.default_content()
         # now = time.strftime("%H:%M")
-        # assert(pse.get_message_box() == now + " 邮件成功保存到草稿箱"), "未保存成功"
+        # assert(pse.get_message_box(1) == now + " 邮件成功保存到草稿箱"), "未保存成功"
 
         # 第二种验证根据左侧导航列表“草稿箱”后面的数字做判断，在添加草稿前就要获取一次然后存为操作后再次获取一次，判断是否增加。此种验证可以用到正则表达式去获取数字
         # 再次定位“草稿箱”，并获取数字
