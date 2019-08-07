@@ -25,7 +25,7 @@ class TestRequired(MyTest):
         pse.type_send()
         # 无法发送，检测提示
         self.driver.switch_to.default_content()
-        assert(pse.get_message_box() == "请填写收件人后再发送"), "没有请填写收件人的提示"
+        assert(pse.get_message_box(0) == "请填写收件人后再发送"), "没有请填写收件人的提示"
         # 再检测页面是否发生了跳转 TODO:这个地方写的对不对，有没有必要
         try:
             self.driver.switch_to.frame("mainFrame")
