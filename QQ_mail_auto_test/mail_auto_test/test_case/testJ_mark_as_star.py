@@ -44,6 +44,7 @@ class TestMark(MyTest):
         ree.mark_as_star()
         # 验证已标记为星标
         self.driver.switch_to.default_content()
+        ree.prompt_confirmation(1)
         assert(ree.star_mail_statistics() >= "3"), "标记星标邮件失败"
 
     def test3_mark_as_star(self):
@@ -56,13 +57,13 @@ class TestMark(MyTest):
         ree.goto_inbox()
         # 按发件人姓名勾选
         self.driver.switch_to.frame("mainFrame")
-        ree.check_by_sender("18827453452", 0)
+        ree.check_by_sender("罗江华", 0)
         # 标记为星标邮件
         ree.mark_as_star()
         # 验证已标记为星标，并对处理提示框：取消创建
         self.driver.switch_to.default_content()
         ree.prompt_confirmation(1)
-        assert(ree.star_mail_statistics() >= "7"), "标记星标邮件失败"
+        assert(ree.star_mail_statistics() == "25"), "标记星标邮件失败"
 
     def test4_mark_as_star(self):
         """测试页面全部邮件标记为星标"""
@@ -78,6 +79,7 @@ class TestMark(MyTest):
         ree.mark_as_star()
         # 验证已标记为星标
         self.driver.switch_to.default_content()
+        ree.prompt_confirmation(1)
         assert(ree.star_mail_statistics() == "25"), "标记星标邮件失败"
 
 
