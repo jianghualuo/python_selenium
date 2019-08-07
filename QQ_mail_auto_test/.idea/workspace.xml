@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24abec3d-7c35-4c3d-a10a-e4fd7e8b7600" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/report/img/forget_password.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/report/img/forget_password.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/report/img/login_ok.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/report/img/login_ok.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/report/img/mobile_qq.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/report/img/mobile_qq.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/report/img/null_password_login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/report/img/null_password_login.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/report/img/null_username_login1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/report/img/null_username_login1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/report/img/null_username_login2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/report/img/null_username_login2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/report/img/qr_invalid_tips.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/report/img/qr_invalid_tips.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/report/img/qrlogin_img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/report/img/qrlogin_img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/report/img/quick_login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/report/img/quick_login.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/report/img/wrong_password_login.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/report/img/wrong_password_login.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_send_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/page_send_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/test9_required_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/test9_required_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testD_save_as_draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testD_save_as_draft.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testE_write_out.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testE_write_out.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testF_complete_delete.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testF_complete_delete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testH_mark_as_unread.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testH_mark_as_unread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testI_mark_as_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testI_mark_as_read.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testJ_mark_as_star.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testJ_mark_as_star.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testK_mark_as_unstar.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testK_mark_as_unstar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail_auto_test/test_case/testL_move_to_sent.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail_auto_test/test_case/testL_move_to_sent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/日常总结/20190817_日常小结" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,6 +115,8 @@
           <entry key="20190729_日常小结" value="1" />
           <entry key="20190730_日常小结" value="1" />
           <entry key="20190802_日常小结" value="1" />
+          <entry key="20190817" value="1" />
+          <entry key="20190817_日常小结" value="1" />
           <entry key="html" value="1" />
           <entry key="jpg" value="7" />
           <entry key="log" value="1" />
@@ -147,7 +128,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="Image" value="7" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="PLAIN_TEXT" value="13" />
           <entry key="Python" value="264" />
         </counts>
       </usages-collector>
@@ -158,13 +139,14 @@
           <entry key="20190729_日常小结" value="27" />
           <entry key="20190730_日常小结" value="77" />
           <entry key="20190802_日常小结" value="36" />
+          <entry key="20190817_日常小结" value="57" />
           <entry key="dummy" value="75" />
           <entry key="py" value="18601" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="574" />
+          <entry key="PLAIN_TEXT" value="631" />
           <entry key="Python" value="18601" />
         </counts>
       </usages-collector>
@@ -172,14 +154,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-359">
-              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+            <state relative-caret-position="-809">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/日常总结/20190817_日常小结">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" selection-start-column="45" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -205,7 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="F:/Selenium/login.py" />
         <option value="$PROJECT_DIR$/日常总结/20190724_日常小结" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/page_obj/Page.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/models/myunit.py" />
@@ -256,6 +246,7 @@
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/testI_mark_as_read.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/testJ_mark_as_star.py" />
         <option value="$PROJECT_DIR$/mail_auto_test/test_case/testL_move_to_sent.py" />
+        <option value="$PROJECT_DIR$/日常总结/20190817_日常小结" />
       </list>
     </option>
   </component>
@@ -265,7 +256,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="744" />
     <option name="width" value="1189" />
     <option name="height" value="917" />
@@ -361,6 +352,11 @@
               <item name="mail_auto_test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test_case" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="page_obj" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="QQ_mail_auto_test" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="日常总结" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -580,8 +576,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16471216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16471216" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -589,7 +586,7 @@
       <window_info anchor="bottom" id="Debug" order="2" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.5819761" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.5819761" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="运行" order="7" weight="0.41304347" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
@@ -642,13 +639,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://F:/Selenium/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/日常总结/20190724_日常小结">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -973,11 +963,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-359">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        <state relative-caret-position="-809">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/日常总结/20190817_日常小结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
         </state>
       </provider>
     </entry>
