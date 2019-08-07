@@ -49,6 +49,7 @@ class PageLogin(PageBase):
 
     def quick_login(self):
         self.open()
+        self.driver.refresh()
         sleep(2)
         self.driver.switch_to.frame("login_frame")
         loc = (By.ID, "img_out_1414710823")
