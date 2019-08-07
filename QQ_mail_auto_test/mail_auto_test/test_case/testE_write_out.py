@@ -73,7 +73,7 @@ class TestWriteOut(MyTest):
         time.sleep(1)
         # 是否保存为草稿
         now = time.strftime("%H:%M")
-        assert(pse.get_message_box() == now + " 邮件成功保存到草稿箱"), "未保存成功"
+        assert(pse.get_message_box(1) == now + " 邮件成功保存到草稿箱"), "未保存成功"
         time.sleep(1)
         # 通过页面的title来验证页面是否跳转了
         assert(self.driver.title == "QQ邮箱"), "写信未关闭"
