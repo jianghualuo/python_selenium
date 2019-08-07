@@ -28,7 +28,7 @@ class PageLogin(PageBase):
         self.find_element(*self.submit_loc).click()
 
     # 统一的登录测试方法,默认用户名和密码
-    def test_login(self, username="1414710823@qq.com", password="LJH-ljh@169914@"):
+    def test_login(self, username="1414710823@qq.com", password="xxxxxxxx"):
         self.open()
         self.driver.switch_to.frame("login_frame")
 
@@ -37,7 +37,7 @@ class PageLogin(PageBase):
         self.type_submit()
         sleep(1)
 
-    def auto_login(self, username="1414710823@qq.com", password="LJH-ljh@169914@"):
+    def auto_login(self, username="1414710823@qq.com", password="xxxxxxxx"):
         self.open()
         self.driver.switch_to.frame("login_frame")
 
