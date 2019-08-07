@@ -21,7 +21,7 @@ class TestLogin(MyTest):
     def test2_null_username(self):
         """测试空户名和密码非空登录"""
         pl = PageLogin(self.driver)
-        pl.test_login("", "LJH-ljh@169914@")
+        pl.test_login("", "xxxxxxxxx")
         sleep(3)
         self.assertEqual(pl.login_error(), "你还没有输入帐号！")
 
