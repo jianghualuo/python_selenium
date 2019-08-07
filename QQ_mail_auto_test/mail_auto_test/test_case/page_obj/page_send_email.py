@@ -24,7 +24,7 @@ class PageSendMail(PageBase):
     send_success_loc = (By.ID, "sendinfomsg")
     frame_2_loc = (By.XPATH, "//div[@id='QMEditorArea']/table/tbody/tr[2]/td/iframe")
     body_loc = (By.TAG_NAME, "body")
-    message_box_loc = (By.CSS_SELECTOR, "div#msgBoxDIV>span.errmsg")
+    message_box_loc = [(By.CSS_SELECTOR, "div#msgBoxDIV>span.errmsg"),(By.CSS_SELECTOR, "div#msgBoxDIV>span.msg")]
 
     def goto_letter(self):
         # 进入“写信”页面
@@ -94,10 +94,10 @@ class PageSendMail(PageBase):
         # 退出
         self.find_element(*self.exit_loc).click()
 
-    def get_message_box(self):
-        # TODO:这个地方还分msg和errmsg，之后要改正
+    def get_message_box(self, n):
+        # 0:errmsg  1:msg
         # 获取收信页面操作后的成功提示
-        return self.find_element(*self.message_box_loc).text
+        return self.find_element(*self.message_box_loc[n]).text
 
     def send_success_hint(self):
         # 检测邮件是否发送成功，检测提示信息
